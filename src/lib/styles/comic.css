@@ -1,0 +1,80 @@
+.text-container {
+    position: absolute;
+}
+
+.chapter {
+    font-family: "chapter";
+    text-transform: uppercase;
+    font-size: 1.8vw;
+    top: 45vw;
+    letter-spacing: 0.5vw;
+}
+
+.title {
+    font-family: "title";
+    font-optical-sizing: auto;
+    text-transform: uppercase;
+    font-size: 10vw;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: -1%;
+    top: 44vw;
+    width: 100%;
+    line-height: 10.5vw;
+}
+
+.date {
+    font-size: 1.4vw;
+    margin: 2%;
+    font-family: "chapter";
+}
+
+.location {
+    font-size: 1.4vw;
+    margin: 2%;
+    font-family: "Location";
+}
+
+.dialog {
+    font-family: "dialogues";
+    font-style: normal;
+    line-height: 1.24;
+    display: block;
+}
+
+.highlight { 
+    display: inline;
+    padding: 0.3vw 0.8vw;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+}
+
+.footnote {
+    font-family: "chapter";
+    font-style: italic;
+    font-size: 1.4vw;
+}
+
+.speaker_comic {
+    font-size: 1.4vw;
+    padding: 2%;
+    font-family: "chapter";
+    color: #000;
+    font-style: italic;
+    background-image: url("/images/ui/speaker.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.image-container {
+    position: relative;
+    margin-top: -5px;
+    margin-bottom: -6px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.image-container img{
+    width: 100%;
+}

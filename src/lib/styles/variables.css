@@ -1,0 +1,38 @@
+:root {
+    --bg_white: #fff;
+    --bg_black: #000;
+
+    --start_dark: #467180;
+    --start_middle:#81A9B3;
+    --start_light:#B3D6DD;
+
+    --alltag_dark: #0F4A53;
+    --alltag_middle: #33828E;
+    --alltag_light: #B2E8F1;
+
+    --madeira_dark: #7B8900;
+    --madeira_middle: #A9B54F;
+    --madeira_light: #D1D8A2;
+
+    --hundstag_dark: #33818D;
+    --hundstag_middle: #76CBD9;
+    --hundstag_light: #B0E6EF;
+
+    --post_dark: #214B4D;
+    --post_middle: #396364;
+    --post_light: #6AB1B5;
+
+    --post_dream_dark: #577070;
+    --post_dream_middle: #809192;
+    --post_dream_light: #bdd9d9;
+
+    --FSturm_dark: #2e3c5f;
+    --FSturm_middle: #455c90;
+    --FSturm_light: #89a0d7;
+
+    --FSturm_FB_dark: #5a6d98;
+    --FSturm_FB_middle: #7e94c7;
+    --FSturm_FB_light: #c5d7fb;
+
+
+}

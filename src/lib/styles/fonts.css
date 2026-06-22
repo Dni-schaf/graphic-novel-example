@@ -1,0 +1,20 @@
+@font-face {
+    font-family: dialogues;
+    src: url('/fonts/YanoneKaffeesatz-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: title;
+    src: url('/fonts/Truculenta_Condensed-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: title_medium;
+    src: url('/fonts/Truculenta_Condensed-Medium.ttf') format('truetype');
+}
+@font-face {
+    font-family: chapter;
+    src: url('/fonts/Finlandica-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: Location;
+    src: url('/fonts/Finlandica-Bold.ttf') format('truetype');
+}
