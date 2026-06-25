@@ -1,18 +1,23 @@
 <script>
   import '../app.css';
   import { menuState } from '$lib/state/menu.svelte.js';
+  import { languageState } from '$lib/state/language.svelte.js';
+  import { uiTexts } from '$lib/data/uiTexts.js';
+  import MenuContent from '$lib/components/MenuContent.svelte';
 
   let { children } = $props();
 </script>
 
-<button onclick={() => menuState.isOpen = !menuState.isOpen}>
-  Menü
+<button 
+  onclick={() => menuState.isOpen = !menuState.isOpen} 
+  id="menu_button" 
+  aria-label={uiTexts.openMenu[languageState.current]}
+>
+  ☰
 </button>
 
 {#if menuState.isOpen}
-  <div style="background: red; padding: 2rem; color: white;">
-    Hier kommt später das Menü hin
-  </div>
+  <MenuContent />
 {/if}
 
 {@render children()}
