@@ -1,0 +1,72 @@
+#map_BG {
+    position: fixed;
+    width: 100vw;
+    height:  69.9vw;
+    background-image: url(../images/map.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#map {
+    position: fixed;
+}
+
+#grid {
+    position: fixed;
+}
+
+#label {
+    position: fixed;
+}
+
+
+#ice {
+    position: fixed;
+}
+
+.graticule {
+    fill: none;
+    stroke:#5D7082;
+    stroke-width: 1px;
+}
+
+.foreground {
+    fill:#6F8193;
+    stroke: none;
+    stroke-width: 1.5px;
+}
+
+#path {
+    position: fixed;
+}
+
+path {
+    fill: #4E5F70;
+    stroke:  #4E5F70;
+}
+
+.Amundsen{
+    stroke:black;
+}
+  
+.Scott{
+    stroke:white;
+}
+
+.city {
+    fill: #AEC5DB;
+    /*text-shadow:
+     -1px -1px 0 #7492A8,    Schatten links oben */
+     /*1px -1px 0 #7492A8,    Schatten rechts oben */
+     /*-1px 1px 0 #7492A8,    Schatten links unten */
+     /* 1px 1px 0 #7492A8;    Schatten rechts unten */
+    font-family: "chapter";
+    font-size: 1.3vw;
+}
+
+.city-circle {
+    fill: #AEC5DB; /* Füllfarbe des Kreises */
+    /*stroke: #7492A8;  Randfarbe */
+    stroke-width: 1px; /* Dicke des Randes */
+}
