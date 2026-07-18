@@ -1,4 +1,6 @@
 <script>
+  let { scale, rotate, chapterName, totalMapHeight, comicHeights, sections } = $props();
+
   import { onMount } from 'svelte';
   import * as d3 from 'd3';
   import * as topojson from 'topojson-client';
@@ -6,7 +8,6 @@
   import { Amundsen } from '$lib/data/AmundsenData.js';
   import { Scott } from '$lib/data/ScottData.js';
 
-  let { scale, rotate } = $props();
 
   let isReady = $state(false);
   let scrollY = $state(0);
@@ -14,11 +15,29 @@
   let amundsenLengths = { lengths: [], times: [] };
 
   // Scroll-Fortschritt: 0 = oben, 1 = unten
-  let progress = $derived.by(() => {
-    if (typeof document === 'undefined') return 0;
-    const scrollHeight = document.documentElement.scrollHeight - window.innerHeight;
-    return scrollHeight > 0 ? Math.max(0, Math.min(1, scrollY / scrollHeight)) : 0;
-  });
+let progress = $derived.by(() => {
+  if (!totalMapHeight || totalMapHeight === 0) return 0;
+  if (!comicHeights || comicHeights.length === 0) return 0;
+
+  // Wie viel Comic ist bereits vollständig gescrollt?
+  let comicOffset = 0;
+  let currentTop = 0;
+
+  for (let i = 0; i < comicHeights.length; i++) {
+    const comicHeight = comicHeights[i];
+    
+    if (comicHeight > 0) {
+      // Comic-Section
+      if (scrollY > currentTop + comicHeight) {
+        comicOffset += comicHeight; // Komplett gescrollt
+      }
+      currentTop += comicHeight;
+    }
+  }
+
+  const mapRelevantScroll = scrollY - comicOffset;
+  return Math.max(0, Math.min(1, mapRelevantScroll / totalMapHeight));
+});
 
   function drawPath(dataset, svgpath, projection) {
     const datecount = dataset.length;
@@ -103,9 +122,9 @@
     const graticule = d3.geoGraticule().step([20, 15]);
 
     Promise.all([
-      d3.json("https://gist.githubusercontent.com/ScharffenBerg/5fb9342bb4abe86bec09230d90275197/raw/4bfb48ab30681e6ec441b0d8a2d7a5da6583900a/Shelf_Ice_Data.json"),
-      d3.json("https://unpkg.com/world-atlas@1.1.4/world/110m.json")
-    ]).then(([ice, world]) => {
+      d3.json("/data/Shelf_Ice_Data.json"),
+      d3.json("/data/110m.json")
+      ]).then(([ice, world]) => {
       svgice.append("g")
         .attr("class", "iceshelf")
         .selectAll("path")
@@ -136,12 +155,58 @@
     });
   }
 
-  $effect(() => {
-    if (isReady && scottLengths.lengths.length > 0) {
-      updatePath(Scott, "Scott", scottLengths.lengths, scottLengths.times);
-      updatePath(Amundsen, "Amundsen", amundsenLengths.lengths, amundsenLengths.times);
+function convertToDate(dateString) {
+  const [day, month, year] = dateString.split('.');
+  return new Date(`${year}-${month}-${day}`).getTime();
+}
+
+let currentTimestamp = $derived.by(() => {
+  if (!sections || sections.length === 0) return null;
+
+  const mapSections = sections.filter(s => s.type === 'map');
+  if (mapSections.length === 0) return null;
+
+  let currentTop = 0;
+  let result = convertToDate(mapSections[0].dateStart); // Startwert: vor allem
+
+  for (const section of sections) {
+    const sectionTop = currentTop;
+    const sectionBottom = currentTop + section.height;
+
+    if (section.type === 'map') {
+      const startTs = convertToDate(section.dateStart);
+      const endTs = convertToDate(section.dateEnd);
+
+      if (scrollY < sectionTop) {
+        // noch nicht erreicht -> result bleibt wie es war
+      } else if (scrollY >= sectionBottom) {
+        // komplett durchgescrollt
+        result = endTs;
+      } else {
+        // mittendrin
+        const localProgress = (scrollY - sectionTop) / section.height;
+        result = startTs + localProgress * (endTs - startTs);
+      }
     }
-  });
+
+    currentTop = sectionBottom;
+  }
+
+  return result;
+});
+
+
+
+
+$effect(() => {
+  const currentProgress = progress;
+  console.log("effect läuft, progress:", currentProgress, "isReady:", isReady, "lengths:", scottLengths.lengths.length);
+  
+  if (isReady && scottLengths.lengths.length > 0) {
+    updatePath(Scott, "Scott", scottLengths.lengths, scottLengths.times);
+    updatePath(Amundsen, "Amundsen", amundsenLengths.lengths, amundsenLengths.times);
+  }
+});
 
   onMount(() => {
     drawEverything();
@@ -155,6 +220,15 @@
 </script>
 
 <svelte:window bind:scrollY />
+
+<div style="position: fixed; top: 10px; right: 10px; background: white; z-index: 999; font-size: 12px; padding: 5px;">
+  scrollY: {scrollY} | progress: {progress} 
+  | totalMapHeight: {totalMapHeight} 
+  | comicHeights: {JSON.stringify(comicHeights)}
+  |<!--sections: {JSON.stringify(sections)}--> 
+  currentTimestamp: {currentTimestamp} | als Datum: {currentTimestamp ? new Date(currentTimestamp).toLocaleDateString('de-DE') : '-'}
+
+</div>
 
 <div id="map"></div>
 <div id="ice"></div>

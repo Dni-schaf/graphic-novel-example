@@ -2,7 +2,6 @@
   import { onMount } from 'svelte';
   import { mapState } from '$lib/state/mapState.svelte.js';
   
-  let { dateStart, dateEnd } = $props();
   
   function convertToDate(dateString) {
     const [day, month, year] = dateString.split('.');
@@ -57,6 +56,17 @@
       window.removeEventListener('resize', updateTop);
     };
   });
+
+  let { dateStart, dateEnd, onHeightChange } = $props();
+
+let lastReportedHeight = 0;
+
+$effect(() => {
+  if (onHeightChange && divHeight !== lastReportedHeight) {
+    lastReportedHeight = divHeight;
+    onHeightChange(divHeight);
+  }
+});
 </script>
 
 <svelte:window
