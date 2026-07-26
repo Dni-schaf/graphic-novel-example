@@ -3,7 +3,7 @@
 
   let { imageName, chapterName, imageTexts } = $props();
 
-  let imagePath = $derived(`/images/${chapterName}/${imageName}.svg`);
+  let imagePath = $derived(`/images/${chapterName}/${imageName}.webp`);
   let textEntries = $derived(imageTexts[imageName]);
 </script>
 

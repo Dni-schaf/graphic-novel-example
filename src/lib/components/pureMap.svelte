@@ -186,7 +186,7 @@
 </script>
 
 <svelte:window bind:scrollY />
-
+<!--
 <div style="position: fixed; top: 10px; right: 10px; background: white; z-index: 999; font-size: 12px; padding: 5px;">
   scrollY: {scrollY}
   | totalMapHeight: {totalMapHeight}
@@ -194,7 +194,7 @@
   <br>
   currentTimestamp: {currentTimestamp} | als Datum: {currentTimestamp ? new Date(currentTimestamp).toLocaleDateString('de-DE') : '-'}
 </div>
-
+-->
 <div id="map"></div>
 <div id="ice"></div>
 <div id="grid"></div>

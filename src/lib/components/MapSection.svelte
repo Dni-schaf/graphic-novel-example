@@ -74,8 +74,9 @@ $effect(() => {
   bind:scrollY={scrollPosition}
 />
 
+
 <div class="map-section" style="height: {divHeight}px;" bind:this={sectionElement}>
-  <p style="position: sticky; top: 10px; background: yellow; z-index: 100; padding: 5px;">
+  <!--<p style="position: sticky; top: 10px; background: yellow; z-index: 100; padding: 5px;">
   sectionTop: {sectionTop.toFixed(0)} | scroll: {scrollPosition.toFixed(0)} | progress: {progress.toFixed(2)} | mapState: {mapState.progress.toFixed(2)}
-</p>
+</p>-->
 </div>
