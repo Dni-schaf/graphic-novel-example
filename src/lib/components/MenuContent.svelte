@@ -5,7 +5,18 @@
   import { menuState } from '$lib/state/menu.svelte.js';
   import MenuLink from '$lib/components/MenuLink.svelte';
   import { chapterTitles } from '$lib/data/chapterTitles.js';
+  import { page } from '$app/state';
+  import { goto } from '$app/navigation';
+
+  function switchLanguage(newLang) {
+    const pathParts = page.url.pathname.split('/');
+    pathParts[1] = newLang; // Segment 1 ist immer der lang-Teil, z.B. "de" in "/de/chapter3"
+    goto(pathParts.join('/'));
+    menuState.isOpen = false;
+  }
 </script>
+
+
 <div id="menu_overlay_bg">
   <div id="menu_overlay">
     <section id="settings">
@@ -16,9 +27,9 @@
         x
       </button>
       <div id="language_buttons_container">
-        <button onclick={() => languageState.current = 'de'} class="language_button">DE</button>
-        <button onclick={() => languageState.current = 'en'} class="language_button">EN</button>
-        <button onclick={() => languageState.current = 'no'} class="language_button">NO</button>
+        <button onclick={() => switchLanguage('de')} class="language_button">DE</button>
+        <button onclick={() => switchLanguage('en')} class="language_button">EN</button>
+        <button onclick={() => switchLanguage('no')} class="language_button">NO</button>
       </div>
     </section>
 

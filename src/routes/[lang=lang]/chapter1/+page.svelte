@@ -1,4 +1,5 @@
 <script>
+  import ChapterEndSpacer from '$lib/components/ChapterEndSpacer.svelte';
   import ComicSection from '$lib/components/ComicSection.svelte';
   import MapSection from '$lib/components/MapSection.svelte';
   import PureMap from '$lib/components/pureMap.svelte'; // Großbuchstabe für Komponenten-Konvention
@@ -37,7 +38,7 @@ let comicHeights = $derived(
 
 <ComicSection chapterName="chapter1" imageNames={imageSetB} {imageTexts} onHeightChange={(h) => updateHeight(2, h)}/>
 <MapSection dateStart="15.06.1910" dateEnd="09.08.1910" onHeightChange={(h) => updateHeight(3, h)}/>
-<div class="chapter-end-spacer" style="height: 200vh;"></div>
+<ChapterEndSpacer />
 
 <!--
 <div style="position: fixed; bottom: 10px; right: 10px; background: yellow; z-index: 999;">

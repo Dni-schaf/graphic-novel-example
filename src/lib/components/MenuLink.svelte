@@ -7,7 +7,7 @@
 
 
 <div class="menu_link">
-    <a href="/{textData.route}" onclick={() => menuState.isOpen = false}>
+    <a href="/{languageState.current}/{textData.route}" onclick={() => menuState.isOpen = false}>        
         <img src={imagePath} alt={textData[`chapter_${languageState.current}`] || textData.chapter_de} />
         <div class="link_text_container" >
             <p class="menu_chapter">
