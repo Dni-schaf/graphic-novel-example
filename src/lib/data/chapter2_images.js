@@ -1,5 +1,7 @@
 export const imageSets = [
         "02_TN_01",
+        "02_TN_01b",
+        "02_TN_01c",
         "02_TN_02",
         "02_TN_03",
         "02_TN_04",
@@ -33,6 +35,7 @@ export const imageSets = [
         "02_TN_32",
         "02_TN_33",
         "02_TN_34",
+        "02_TN_34b",
         "02_TN_36",
         "02_TN_37",
         "02_TN_38",

@@ -52,7 +52,9 @@ export const imageTexts ={
       "bottom": "57.6%",
       "left": "0%",
       "width": "100%"
-    },
+    }
+  ],
+  "01a_TN_01b": [
     {
       "text_de": "Union in Südafrika – das Empire wächst!",
       "text_en": "Union in South Africa—the Empire grows stronger!",

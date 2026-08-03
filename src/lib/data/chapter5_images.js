@@ -10,6 +10,8 @@ export const imageSets = [
         "05_TN_09",
         "05_TN_10",
         "05_TN_11",
+        "05_TN_11b",
+        "05_TN_11c",
         "05_TN_12",
         "05_TN_13",
         "05_TN_14",
@@ -31,6 +33,8 @@ export const imageSets = [
         "05_TN_30",
         "05_TN_31",
         "05_TN_32",
+        "05_TN_32b",
+        "05_TN_32c",
         "05_TN_33",
         "05_TN_33b",
         "05_TN_33c",
@@ -51,5 +55,5 @@ export const imageSets = [
         "05_TN_44",
         "05_TN_45",
         "05_TN_46",
-     "05_TN_47"
+        "05_TN_47"
 ]

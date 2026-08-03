@@ -1,5 +1,6 @@
 export const imageSetA = [
         "04a_F_01",
+        "04a_F_01b",
         "04a_F_02",
         "04a_F_03",
         "04a_F_04",
@@ -83,6 +84,7 @@ export const imageSetC = [
 
 export const imageSetD = [
         "04d_F_01",
+        "04d_F_01b",
         "04d_F_02",
         "04d_F_03",
         "04d_F_04",

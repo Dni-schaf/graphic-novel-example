@@ -1,5 +1,6 @@
 export const imageSetA= [
         "01a_TN_01",
+        "01a_TN_01b",
         "01a_TN_02",
         "01a_TN_03",
         "01a_TN_04",
