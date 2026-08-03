@@ -1,6 +1,6 @@
 <script>
   import ImageWithTexts from '$lib/components/ImageWithTexts.svelte';
-  let { chapterName, imageNames, imageTexts, onHeightChange } = $props();
+  let { chapterName, imageNames, imageTexts, onHeightChange, id = undefined } = $props();
 
   let sectionElement;
 
@@ -22,7 +22,7 @@ onMount(() => {
   
 </script>
 
-<div class="comic-section" bind:this={sectionElement}>
+<div class="comic-section" {id} bind:this={sectionElement}>
   {#each imageNames as imageName}
     <ImageWithTexts {imageName} {chapterName} {imageTexts} />
   {/each}

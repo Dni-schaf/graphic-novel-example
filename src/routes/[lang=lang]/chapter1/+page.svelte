@@ -33,7 +33,7 @@ let comicHeights = $derived(
 <PureMap scale={150} rotate={[-70, 0]} chapterName="chapter1" {totalMapHeight}
   {comicHeights} {sections}/>
 
-<ComicSection chapterName="chapter1" imageNames={imageSetA} {imageTexts} onHeightChange={(h) => updateHeight(0, h)}/>
+<ComicSection id="comic-start" chapterName="chapter1" imageNames={imageSetA} {imageTexts} onHeightChange={(h) => updateHeight(0, h)}/>
 <MapSection dateStart="02.06.1910" dateEnd="14.06.1910" onHeightChange={(h) => updateHeight(1, h)}/>
 
 <ComicSection chapterName="chapter1" imageNames={imageSetB} {imageTexts} onHeightChange={(h) => updateHeight(2, h)}/>
