@@ -45,7 +45,7 @@
     position: fixed;
 }
 
-path {
+.map {
     fill: #4E5F70;
     stroke:  #4E5F70;
 }

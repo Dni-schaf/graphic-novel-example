@@ -10,7 +10,8 @@ export const speaker = {
         "textAlign": "left",
         "top": "30%",
         "left": "0%",
-        "width": "20%"
+        "width": "20%",
+        "parallaxSpeed": "-0.3"
       },
       {
         "text_de": "Zur gleichen Zeit ankert die Terra Nova friedlich in Lyttelton. Auch Captain Scott ist inzwischen in Neuseeland angekommen, verweilt jedoch noch auf Quail Island, um die Tiere der Expedition zu begutachten.",
@@ -22,7 +23,8 @@ export const speaker = {
         "textAlign": "left",
         "top": "60%",
         "left": "70%",
-        "width": "20%"
+        "width": "20%",
+        "parallaxSpeed": "-0.3"
       },
       {
       "text_de": "Fortsetzung folgt",
@@ -34,7 +36,8 @@ export const speaker = {
       "textAlign": "center",
       "top": "125%",
       "left": "40%",
-      "width": "20%"
+      "width": "20%",
+      "parallaxSpeed": "-0.3"
       }
     ]
   }

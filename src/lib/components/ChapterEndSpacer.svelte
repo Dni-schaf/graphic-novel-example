@@ -52,7 +52,7 @@ onMount(() => {
 });
 </script>
 
-<div class="chapter-end-spacer" id="chapter-end">
+<div class="chapter-end-spacer" id="end">
   {#if nextChapter !== null}
     <p class="chapter-transition-hint">
       {texts[languageState.current]?.(nextChapter) || texts.de(nextChapter)}

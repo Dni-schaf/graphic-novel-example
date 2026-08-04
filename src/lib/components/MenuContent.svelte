@@ -8,12 +8,12 @@
   import { page } from '$app/state';
   import { goto } from '$app/navigation';
 
-  function switchLanguage(newLang) {
-    const pathParts = page.url.pathname.split('/');
-    pathParts[1] = newLang; // Segment 1 ist immer der lang-Teil, z.B. "de" in "/de/chapter3"
-    goto(pathParts.join('/'));
-    menuState.isOpen = false;
-  }
+function switchLanguage(newLang) {
+  const pathParts = page.url.pathname.split('/');
+  pathParts[1] = newLang;
+  goto(pathParts.join('/') + page.url.hash);
+  menuState.isOpen = false;
+}
 </script>
 
 

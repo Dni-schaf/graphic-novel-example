@@ -10,7 +10,8 @@ export const speaker = {
         "textAlign": "left",
         "top": "39%",
         "left": "70%",
-        "width": "20%"
+        "width": "20%",
+        "parallaxSpeed": "-0.3"
       },
       {
         "text_de": "Die Terra Nova hält derweil auf Australien zu – nichtsahnend, dass soeben ein stiller Startschuss gefallen ist: Aus einer Expedition ist ein Wettlauf geworden.",
@@ -22,7 +23,8 @@ export const speaker = {
         "textAlign": "left",
         "top": "99%",
         "left": "70%",
-        "width": "20%"
+        "width": "20%",
+        "parallaxSpeed": "-0.3"
       }
     ]
   }

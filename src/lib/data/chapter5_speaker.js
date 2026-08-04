@@ -10,7 +10,8 @@ export const speaker = {
         "textAlign": "left",
         "top": "30%",
         "left": "0%",
-        "width": "20%"
+        "width": "20%",
+        "parallaxSpeed": "-0.3"
       },
       {
         "text_de": "Planmäßig verlässt die Terra Nova Melbourne – wieder einmal ohne ihren Captain Scott. Der muss in Australien noch Verpflichtungen erfüllen, ehe er ihr nach Neuseeland folgen kann.",
@@ -22,7 +23,8 @@ export const speaker = {
         "textAlign": "left",
         "top": "59%",
         "left": "70%",
-        "width": "20%"
+        "width": "20%",
+        "parallaxSpeed": "-0.3"
       },
       {
         "text_de": 'Als die Terra Nova nach gut zehn Tagen im neuseeländischen Lyttelton einläuft, überquert die Fram den 40. Grad südlicher Breite. Hier beginnt eine Region, die Seefahrer „Brüllende Vierziger“ nennen.',
@@ -34,7 +36,8 @@ export const speaker = {
         "textAlign": "left",
         "top": "90%",
         "left": "70%",
-        "width": "20%"
+        "width": "20%",
+        "parallaxSpeed": "-0.3"
       },
     ]
   }

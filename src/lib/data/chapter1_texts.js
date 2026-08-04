@@ -1,5 +1,4 @@
-export const imageTexts ={
-
+export const imageTexts = {
   "01a_TN_01": [
     {
       "text_de": "Kapitel 1",
@@ -36,7 +35,7 @@ export const imageTexts ={
       "backgroundColor": "",
       "fontSize": "",
       "textAlign": "left",
-      "bottom": "58.3%",
+      "bottom": "3.3%",
       "left": "0%",
       "width": "100%"
     },
@@ -49,7 +48,7 @@ export const imageTexts ={
       "backgroundColor": "",
       "fontSize": "",
       "textAlign": "left",
-      "bottom": "57.6%",
+      "bottom": "1.6%",
       "left": "0%",
       "width": "100%"
     }
@@ -64,7 +63,7 @@ export const imageTexts ={
       "backgroundColor": "bg_white",
       "fontSize": "2.5vw",
       "textAlign": "left",
-      "bottom": "20%",
+      "bottom": "34%",
       "left": "68%",
       "width": "17%"
     }
@@ -92,8 +91,8 @@ export const imageTexts ={
       "backgroundColor": "start_middle",
       "fontSize": "2.5vw",
       "textAlign": "left",
-      "bottom": "55%",
-      "left": "79%",
+      "bottom": "52%",
+      "left": "77%",
       "width": "14%"
     }
   ],
@@ -122,6 +121,32 @@ export const imageTexts ={
       "textAlign": "left",
       "bottom": "79%",
       "left": "65%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Pfui",
+      "text_en": "Pfui",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "start_middle",
+      "fontSize": "1.8vw",
+      "textAlign": "right",
+      "bottom": "59%",
+      "left": "67%",
+      "width": "20%"
+    },
+    {
+      "text_de": "Ksch Ksch!",
+      "text_en": "Kschksch!",
+      "text_no": "no",
+      "kind": "dialog",
+      "color": "black",
+      "backgroundColor": "start_middle",
+      "fontSize": "1.8vw",
+      "textAlign": "left",
+      "bottom": "85%",
+      "left": "87%",
       "width": "20%"
     }
   ],
@@ -247,8 +272,8 @@ export const imageTexts ={
       "backgroundColor": "bg_white",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "78%",
-      "left": "57%",
+      "bottom": "76%",
+      "left": "60%",
       "width": "30%"
     },
     {
@@ -415,7 +440,7 @@ export const imageTexts ={
       "backgroundColor": "bg_white",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "77%",
+      "bottom": "75%",
       "left": "66%",
       "width": "16%"
     }
@@ -545,8 +570,8 @@ export const imageTexts ={
       "fontSize": "1.8vw",
       "textAlign": "left",
       "bottom": "49%",
-      "left": "19%",
-      "width": "15%"
+      "left": "21%",
+      "width": "12%"
     },
     {
       "text_de": "Ich erinnere mich noch gut an die Heimfahrt mit der Discovery. Wie seelenfinster er war – so enttäuscht, dass wir den Pol nicht erreicht hatten.",
@@ -572,34 +597,21 @@ export const imageTexts ={
       "backgroundColor": "start_light",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "94%",
+      "bottom": "95.5%",
       "left": "68%",
       "width": "20%"
     },
     {
-      "text_de": "Daran zweifle ich keine Sekunde.",
-      "text_en": "I don’t doubt that for a second.",
+      "text_de": "Daran zweifle ich keine Sekunde. Und er auch nicht.",
+      "text_en": "I don’t doubt that for a second. Nor does he.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "start_light",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "84%",
+      "bottom": "85%",
       "left": "61%",
-      "width": "20%"
-    },
-    {
-      "text_de": "Und er auch nicht.",
-      "text_en": "Nor does he.",
-      "text_no": "no",
-      "kind": "dialog",
-      "color": "black",
-      "backgroundColor": "start_light",
-      "fontSize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "83%",
-      "left": "62%",
       "width": "20%"
     },
     {
@@ -624,8 +636,8 @@ export const imageTexts ={
       "backgroundColor": "start_light",
       "fontSize": "2.8vw",
       "textAlign": "left",
-      "bottom": "18%",
-      "left": "5%",
+      "bottom": "14%",
+      "left": "8%",
       "width": "20%"
     }
   ],
@@ -765,7 +777,7 @@ export const imageTexts ={
       "fontSize": "1.8vw",
       "textAlign": "right",
       "bottom": "27%",
-      "left": "62%",
+      "left": "60%",
       "width": "20%"
     },
     {
@@ -790,7 +802,7 @@ export const imageTexts ={
       "backgroundColor": "start_light",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "27%",
+      "bottom": "29%",
       "left": "13%",
       "width": "20%"
     },
@@ -857,8 +869,8 @@ export const imageTexts ={
       "backgroundColor": "start_light",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "69%",
-      "left": "58%",
+      "bottom": "31%",
+      "left": "52%",
       "width": "10%"
     }
   ],
@@ -984,8 +996,8 @@ export const imageTexts ={
       "backgroundColor": "start_middle",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "37%",
+      "bottom": "83%",
+      "left": "40%",
       "width": "20%"
     },
     {
@@ -997,7 +1009,7 @@ export const imageTexts ={
       "backgroundColor": "start_middle",
       "fontSize": "1.8vw",
       "textAlign": "right",
-      "bottom": "68%",
+      "bottom": "67%",
       "left": "34%",
       "width": "20%"
     }
@@ -1012,9 +1024,9 @@ export const imageTexts ={
       "backgroundColor": "start_light",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "69%",
-      "left": "37%",
-      "width": "20%"
+      "bottom": "75%",
+      "left": "33%",
+      "width": "26%"
     },
     {
       "text_de": "Aus dem Walfang wird wohl nichts … aber das erzähle ich dir später.",
@@ -1068,7 +1080,7 @@ export const imageTexts ={
       "backgroundColor": "start_light",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "64%",
+      "bottom": "68%",
       "left": "36%",
       "width": "15%"
     },
@@ -1096,7 +1108,7 @@ export const imageTexts ={
       "backgroundColor": "start_light",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "82%",
+      "bottom": "78%",
       "left": "23%",
       "width": "20%"
     }
@@ -1139,7 +1151,7 @@ export const imageTexts ={
       "textAlign": "right",
       "bottom": "74%",
       "left": "53%",
-      "width": "17%"
+      "width": "18%"
     }
   ],
   "01b_TN_12": [
@@ -1180,7 +1192,7 @@ export const imageTexts ={
       "backgroundColor": "bg_white",
       "fontSize": "1.8vw",
       "textAlign": "right",
-      "bottom": "70%",
+      "bottom": "72%",
       "left": "30%",
       "width": "17%"
     },
@@ -1253,7 +1265,7 @@ export const imageTexts ={
       "textAlign": "right",
       "bottom": "27%",
       "left": "50%",
-      "width": "21%"
+      "width": "18%"
     }
   ],
   "01b_TN_17": [
@@ -1323,7 +1335,7 @@ export const imageTexts ={
       "fontSize": "1.8vw",
       "textAlign": "left",
       "bottom": "40%",
-      "left": "69%",
+      "left": "71%",
       "width": "20%"
     }
   ],
@@ -1338,7 +1350,7 @@ export const imageTexts ={
       "fontSize": "1.8vw",
       "textAlign": "left",
       "bottom": "28%",
-      "left": "31%",
+      "left": "28%",
       "width": "20%"
     },
     {
@@ -1351,8 +1363,8 @@ export const imageTexts ={
       "fontSize": "1.8vw",
       "textAlign": "right",
       "bottom": "8%",
-      "left": "47%",
-      "width": "15%"
+      "left": "46%",
+      "width": "16%"
     }
   ],
   "01b_TN_21": [
@@ -1378,7 +1390,7 @@ export const imageTexts ={
       "backgroundColor": "bg_white",
       "fontSize": "1.8vw",
       "textAlign": "right",
-      "bottom": "76%",
+      "bottom": "79%",
       "left": "50%",
       "width": "18%"
     }
@@ -1408,7 +1420,7 @@ export const imageTexts ={
       "textAlign": "left",
       "bottom": "85%",
       "left": "52%",
-      "width": "20%"
+      "width": "21%"
     }
   ],
   "01b_TN_23": [
@@ -1464,9 +1476,9 @@ export const imageTexts ={
       "backgroundColor": "bg_white",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "51%",
+      "bottom": "57%",
       "left": "45%",
-      "width": "15%"
+      "width": "12%"
     },
     {
       "text_de": "… Sie meinen diese sogenannten Suffragetten?",
@@ -1477,7 +1489,7 @@ export const imageTexts ={
       "backgroundColor": "bg_white",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "58%",
+      "bottom": "56%",
       "left": "77%",
       "width": "13%"
     }
@@ -1518,9 +1530,9 @@ export const imageTexts ={
       "backgroundColor": "start_light",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "39%",
-      "left": "52%",
-      "width": "11%"
+      "bottom": "38%",
+      "left": "50%",
+      "width": "12%"
     },
     {
       "text_de": "… kann dem neuen König nur das beste wünschen!",
@@ -1544,8 +1556,8 @@ export const imageTexts ={
       "backgroundColor": "start_light",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "27%",
-      "left": "78%",
+      "bottom": "25%",
+      "left": "79%",
       "width": "20%"
     }
   ],
@@ -1558,9 +1570,9 @@ export const imageTexts ={
       "color": "black",
       "backgroundColor": "start_light",
       "fontSize": "1.8vw",
-      "textAlign": "right",
-      "bottom": "9%",
-      "left": "72%",
+      "textAlign": "left",
+      "bottom": "67%",
+      "left": "2%",
       "width": "20%"
     },
     {
@@ -1599,7 +1611,7 @@ export const imageTexts ={
       "fontSize": "1.8vw",
       "textAlign": "right",
       "bottom": "62%",
-      "left": "78%",
+      "left": "81%",
       "width": "15%"
     },
     {
@@ -1621,11 +1633,11 @@ export const imageTexts ={
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "start_light",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "34%",
-      "left": "40%",
+      "bottom": "42%",
+      "left": "28%",
       "width": "19%"
     }
   ],
@@ -1693,8 +1705,8 @@ export const imageTexts ={
       "backgroundColor": "start_light",
       "fontSize": "2.8vw",
       "textAlign": "right",
-      "bottom": "83%",
-      "left": "73%",
+      "bottom": "79%",
+      "left": "66%",
       "width": "20%"
     }
   ],
@@ -1708,8 +1720,8 @@ export const imageTexts ={
       "backgroundColor": "start_light",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "30%",
-      "left": "17%",
+      "bottom": "41%",
+      "left": "20%",
       "width": "20%"
     }
   ],
@@ -1762,7 +1774,7 @@ export const imageTexts ={
       "backgroundColor": "bg_white",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "76%",
+      "bottom": "75%",
       "left": "10%",
       "width": "20%"
     },
@@ -1840,8 +1852,8 @@ export const imageTexts ={
       "backgroundColor": "start_light",
       "fontSize": "1.8vw",
       "textAlign": "right",
-      "bottom": "36%",
-      "left": "39%",
+      "bottom": "35%",
+      "left": "36%",
       "width": "20%"
     },
     {
@@ -1876,10 +1888,10 @@ export const imageTexts ={
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "start_light",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "66%",
+      "bottom": "65%",
       "left": "66%",
       "width": "20%"
     }
@@ -1894,7 +1906,7 @@ export const imageTexts ={
       "backgroundColor": "start_light",
       "fontSize": "1.8vw",
       "textAlign": "right",
-      "bottom": "87%",
+      "bottom": "81%",
       "left": "17%",
       "width": "14%"
     },
@@ -1931,7 +1943,7 @@ export const imageTexts ={
       "text_en": "To Taff Evans!",
       "text_no": "no",
       "kind": "dialog",
-      "color": "white",
+      "color": "black",
       "backgroundColor": "start_middle",
       "fontSize": "1.8vw",
       "textAlign": "left",
@@ -1944,7 +1956,7 @@ export const imageTexts ={
       "text_en": "Cymru am byth!",
       "text_no": "no",
       "kind": "dialog",
-      "color": "white",
+      "color": "black",
       "backgroundColor": "start_middle",
       "fontSize": "1.8vw",
       "textAlign": "left",
@@ -1957,7 +1969,7 @@ export const imageTexts ={
       "text_en": "To Wales!",
       "text_no": "no",
       "kind": "dialog",
-      "color": "white",
+      "color": "black",
       "backgroundColor": "start_middle",
       "fontSize": "1.8vw",
       "textAlign": "left",
@@ -1970,7 +1982,7 @@ export const imageTexts ={
       "text_en": "Cheers!",
       "text_no": "no",
       "kind": "dialog",
-      "color": "white",
+      "color": "black",
       "backgroundColor": "start_middle",
       "fontSize": "1.8vw",
       "textAlign": "left",
@@ -1988,10 +2000,10 @@ export const imageTexts ={
       "color": "black",
       "backgroundColor": "start_light",
       "fontSize": "1.8vw",
-      "textAlign": "left",
+      "textAlign": "right",
       "bottom": "74%",
-      "left": "51%",
-      "width": "21%"
+      "left": "30%",
+      "width": "22%"
     }
   ],
   "01b_TN_38": [
@@ -2000,7 +2012,7 @@ export const imageTexts ={
       "text_en": "Here's to the coal!",
       "text_no": "no",
       "kind": "dialog",
-      "color": "white",
+      "color": "black",
       "backgroundColor": "start_middle",
       "fontSize": "1.8vw",
       "textAlign": "right",
@@ -2013,12 +2025,12 @@ export const imageTexts ={
       "text_en": "Cheers!",
       "text_no": "no",
       "kind": "dialog",
-      "color": "white",
+      "color": "black",
       "backgroundColor": "start_middle",
       "fontSize": "1.8vw",
       "textAlign": "left",
       "bottom": "78%",
-      "left": "17%",
+      "left": "16%",
       "width": "20%"
     },
     {
@@ -2026,7 +2038,7 @@ export const imageTexts ={
       "text_en": "Full steam ahead!",
       "text_no": "no",
       "kind": "dialog",
-      "color": "white",
+      "color": "black",
       "backgroundColor": "start_middle",
       "fontSize": "1.8vw",
       "textAlign": "left",
@@ -2039,12 +2051,12 @@ export const imageTexts ={
       "text_en": "To Wales!",
       "text_no": "no",
       "kind": "dialog",
-      "color": "white",
+      "color": "black",
       "backgroundColor": "start_middle",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "55%",
-      "left": "2%",
+      "bottom": "79%",
+      "left": "4%",
       "width": "20%"
     },
     {
@@ -2052,12 +2064,12 @@ export const imageTexts ={
       "text_en": "Cheers!",
       "text_no": "no",
       "kind": "dialog",
-      "color": "white",
+      "color": "black",
       "backgroundColor": "start_middle",
       "fontSize": "1.8vw",
       "textAlign": "left",
       "bottom": "55%",
-      "left": "33%",
+      "left": "21%",
       "width": "20%"
     }
   ],
@@ -2071,9 +2083,9 @@ export const imageTexts ={
       "backgroundColor": "start_light",
       "fontSize": "1.8vw",
       "textAlign": "right",
-      "bottom": "49%",
-      "left": "1%",
-      "width": "13%"
+      "bottom": "57%",
+      "left": "3%",
+      "width": "9%"
     },
     {
       "text_de": "Hihihi!",
@@ -2084,8 +2096,8 @@ export const imageTexts ={
       "backgroundColor": "start_light",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "80%",
-      "left": "91%",
+      "bottom": "84%",
+      "left": "89%",
       "width": "20%"
     }
   ],
@@ -2099,7 +2111,7 @@ export const imageTexts ={
       "backgroundColor": "start_light",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "67%",
+      "bottom": "61%",
       "left": "37%",
       "width": "32%"
     }
@@ -2138,7 +2150,7 @@ export const imageTexts ={
       "text_en": "To Cardiff!",
       "text_no": "no",
       "kind": "dialog",
-      "color": "white",
+      "color": "black",
       "backgroundColor": "start_middle",
       "fontSize": "1.8vw",
       "textAlign": "left",
@@ -2151,12 +2163,12 @@ export const imageTexts ={
       "text_en": "Cheers!",
       "text_no": "no",
       "kind": "dialog",
-      "color": "white",
+      "color": "black",
       "backgroundColor": "start_middle",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "82%",
-      "left": "33%",
+      "bottom": "84%",
+      "left": "32%",
       "width": "20%"
     },
     {
@@ -2164,7 +2176,7 @@ export const imageTexts ={
       "text_en": "To a safe return!",
       "text_no": "no",
       "kind": "dialog",
-      "color": "white",
+      "color": "black",
       "backgroundColor": "start_middle",
       "fontSize": "1.8vw",
       "textAlign": "left",
@@ -2177,12 +2189,12 @@ export const imageTexts ={
       "text_en": "Don't forget us!",
       "text_no": "no",
       "kind": "dialog",
-      "color": "white",
+      "color": "black",
       "backgroundColor": "start_middle",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "71%",
-      "left": "12%",
+      "bottom": "79%",
+      "left": "15%",
       "width": "20%"
     }
   ],
@@ -2197,7 +2209,7 @@ export const imageTexts ={
       "fontSize": "1.8vw",
       "textAlign": "left",
       "bottom": "6%",
-      "left": "31%",
+      "left": "34%",
       "width": "18%"
     },
     {
@@ -2224,7 +2236,7 @@ export const imageTexts ={
       "backgroundColor": "start_light",
       "fontSize": "1.8vw",
       "textAlign": "right",
-      "bottom": "68%",
+      "bottom": "63%",
       "left": "33%",
       "width": "26%"
     }
@@ -2278,8 +2290,8 @@ export const imageTexts ={
       "backgroundColor": "bg_white",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "50%",
-      "left": "13%",
+      "bottom": "54%",
+      "left": "17%",
       "width": "20%"
     }
   ],
@@ -2289,11 +2301,11 @@ export const imageTexts ={
       "text_en": "Drunk as a lord, our dear Taff!",
       "text_no": "no",
       "kind": "dialog",
-      "color": "black",
+      "color": "white",
       "backgroundColor": "start_dark",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "49%",
+      "bottom": "38%",
       "left": "66%",
       "width": "12%"
     },
@@ -2321,7 +2333,7 @@ export const imageTexts ={
       "backgroundColor": "",
       "fontSize": "",
       "textAlign": "left",
-      "bottom": "80%",
+      "bottom": "81%",
       "left": "0%",
       "width": "100%"
     },
@@ -2344,11 +2356,11 @@ export const imageTexts ={
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "start_middle",
+      "backgroundColor": "start_light",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "68%",
-      "left": "55%",
+      "bottom": "67%",
+      "left": "57%",
       "width": "13%"
     },
     {
@@ -2361,7 +2373,7 @@ export const imageTexts ={
       "fontSize": "1.8vw",
       "textAlign": "right",
       "bottom": "65.5%",
-      "left": "34%",
+      "left": "32%",
       "width": "14%"
     },
     {
@@ -2373,8 +2385,8 @@ export const imageTexts ={
       "backgroundColor": "start_light",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "20%",
-      "left": "51%",
+      "bottom": "16.5%",
+      "left": "56%",
       "width": "20%"
     },
     {
@@ -2385,10 +2397,10 @@ export const imageTexts ={
       "color": "black",
       "backgroundColor": "start_light",
       "fontSize": "1.8vw",
-      "textAlign": "right",
+      "textAlign": "left",
       "bottom": "10%",
-      "left": "30%",
-      "width": "12%"
+      "left": "51%",
+      "width": "10%"
     },
     {
       "text_de": "Puh … die Keks-Ladung kam wirklich in allerletzter Minute.",
@@ -2400,7 +2412,7 @@ export const imageTexts ={
       "fontSize": "1.8vw",
       "textAlign": "right",
       "bottom": "46%",
-      "left": "31%",
+      "left": "29%",
       "width": "20%"
     },
     {
@@ -2412,8 +2424,8 @@ export const imageTexts ={
       "backgroundColor": "start_light",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "61%",
-      "left": "52%",
+      "bottom": "62%",
+      "left": "56%",
       "width": "20%"
     },
     {
@@ -2441,7 +2453,7 @@ export const imageTexts ={
       "fontSize": "1.8vw",
       "textAlign": "left",
       "bottom": "90%",
-      "left": "23%",
+      "left": "26%",
       "width": "20%"
     },
     {
@@ -2453,9 +2465,9 @@ export const imageTexts ={
       "backgroundColor": "start_light",
       "fontSize": "1.8vw",
       "textAlign": "right",
-      "bottom": "70%",
+      "bottom": "72%",
       "left": "0%",
-      "width": "15%"
+      "width": "13%"
     },
     {
       "text_de": "Lieferung spät – Qualität jedoch tadellos.",
@@ -2463,10 +2475,10 @@ export const imageTexts ={
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "start_middle",
+      "backgroundColor": "start_light",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "52%",
+      "bottom": "33%",
       "left": "24%",
       "width": "16%"
     }
@@ -2481,7 +2493,7 @@ export const imageTexts ={
       "backgroundColor": "start_middle",
       "fontSize": "1.8vw",
       "textAlign": "right",
-      "bottom": "8%",
+      "bottom": "16%",
       "left": "48%",
       "width": "20%"
     },
@@ -2494,7 +2506,7 @@ export const imageTexts ={
       "backgroundColor": "bg_white",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "66%",
+      "bottom": "74%",
       "left": "38%",
       "width": "20%"
     }
@@ -2522,7 +2534,7 @@ export const imageTexts ={
       "backgroundColor": "start_light",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "22%",
+      "bottom": "18%",
       "left": "70%",
       "width": "20%"
     }
@@ -2578,8 +2590,8 @@ export const imageTexts ={
       "backgroundColor": "start_light",
       "fontSize": "1.8vw",
       "textAlign": "right",
-      "bottom": "44%",
-      "left": "18%",
+      "bottom": "36%",
+      "left": "16%",
       "width": "17%"
     }
   ],
@@ -2606,7 +2618,7 @@ export const imageTexts ={
       "backgroundColor": "start_light",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "60%",
+      "bottom": "57%",
       "left": "53%",
       "width": "14%"
     }
@@ -2663,7 +2675,7 @@ export const imageTexts ={
       "fontSize": "2.8vw",
       "textAlign": "left",
       "bottom": "76%",
-      "left": "62%",
+      "left": "58%",
       "width": "20%"
     },
     {
@@ -2701,8 +2713,8 @@ export const imageTexts ={
       "backgroundColor": "start_light",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "83%",
-      "left": "2%",
+      "bottom": "86%",
+      "left": "4%",
       "width": "20%"
     },
     {
@@ -2715,7 +2727,7 @@ export const imageTexts ={
       "fontSize": "1.8vw",
       "textAlign": "left",
       "bottom": "88%",
-      "left": "31%",
+      "left": "30%",
       "width": "20%"
     }
   ],
@@ -2730,7 +2742,7 @@ export const imageTexts ={
       "fontSize": "1.8vw",
       "textAlign": "left",
       "bottom": "8%",
-      "left": "80%",
+      "left": "76%",
       "width": "20%"
     }
   ],
@@ -2757,8 +2769,8 @@ export const imageTexts ={
       "backgroundColor": "bg_white",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "6%",
-      "left": "79%",
+      "bottom": "13%",
+      "left": "71%",
       "width": "20%"
     }
   ],
@@ -2773,7 +2785,7 @@ export const imageTexts ={
       "fontSize": "1.8vw",
       "textAlign": "right",
       "bottom": "90%",
-      "left": "48%",
+      "left": "39%",
       "width": "20%"
     }
   ],
@@ -2830,7 +2842,7 @@ export const imageTexts ={
       "backgroundColor": "start_light",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "65%",
+      "bottom": "56%",
       "left": "26%",
       "width": "17%"
     }
@@ -2845,8 +2857,8 @@ export const imageTexts ={
       "backgroundColor": "bg_black",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "59%",
-      "left": "45%",
+      "bottom": "49%",
+      "left": "40%",
       "width": "21%"
     }
   ],
@@ -2865,7 +2877,5 @@ export const imageTexts ={
       "width": "18%"
     }
   ]
-
-
     
 }

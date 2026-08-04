@@ -10,7 +10,8 @@ export const speaker = {
         "textAlign": "left",
         "top": "51%",
         "left": "70%",
-        "width": "20%"
+        "width": "20%",
+        "parallaxSpeed": "-0.3"
       },
       {
         "text_de": "Als der norwegische Dreimaster den Ärmelkanal passiert, wirft die britische Expedition nach beinahe neun Wochen auf See endlich nahe Kapstadt den Anker – Captain Scott wartet dort bereits.",
@@ -22,7 +23,8 @@ export const speaker = {
         "textAlign": "left",
         "top": "59%",
         "left": "0%",
-        "width": "20%"
+        "width": "20%",
+        "parallaxSpeed": "-0.3"
       },
       {
         "text_de": "Zwei Wochen später sticht die Terra Nova erneut in See – diesmal allerdings ohne ihren Chefwissenschaftler. Wilson reist mit dem Postdampfer und wird die Expedition erst in Australien wieder einholen.",
@@ -34,7 +36,8 @@ export const speaker = {
         "textAlign": "left",
         "top": "95%",
         "left": "70%",
-        "width": "20%"
+        "width": "20%",
+        "parallaxSpeed": "-0.3"
       },
       {
         "text_de": "Unterdessen erreicht das geheimnisvolle norwegische Schiff nach einem Monat auf See Madeira – die Insel des ewigen Frühlings.",
@@ -46,7 +49,8 @@ export const speaker = {
         "textAlign": "left",
         "top": "104%",
         "left": "0%",
-        "width": "20%"
+        "width": "20%",
+        "parallaxSpeed": "-0.3"
       }
     ]
   }

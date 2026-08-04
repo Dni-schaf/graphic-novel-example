@@ -10,7 +10,8 @@ export const speaker = {
         "textAlign": "left",
         "top": "30%",
         "left": "0%",
-        "width": "20%"
+        "width": "20%",
+        "parallaxSpeed": "-0.3"
       },
       {
         "text_de": "Dabei ist es brütend heiß. Die Winde sind abgeflaut und die Luft liegt wie Blei auf dem Deck.",
@@ -22,7 +23,8 @@ export const speaker = {
         "textAlign": "left",
         "top": "108%",
         "left": "70%",
-        "width": "20%"
+        "width": "20%",
+        "parallaxSpeed": "-0.3"
       },
     ],
   
@@ -37,7 +39,8 @@ export const speaker = {
         "textAlign": "left",
         "top": "51%",
         "left": "70%",
-        "width": "20%"
+        "width": "20%",
+        "parallaxSpeed": "-0.3"
       },
       {
         "text_de": "Vom heiß ersehnten Regen fehlt weiterhin jede Spur. Trinkwasser bleibt ein knappes Gut.",
@@ -49,7 +52,8 @@ export const speaker = {
         "textAlign": "left",
         "top": "90%",
         "left": "70%",
-        "width": "20%"
+        "width": "20%",
+        "parallaxSpeed": "-0.3"
       }
     ],
     "4c": [
@@ -63,7 +67,8 @@ export const speaker = {
         "textAlign": "left",
         "top": "30%",
         "left": "0%",
-        "width": "20%"
+        "width": "20%",
+        "parallaxSpeed": "-0.3"
       },
       {
         "text_de": "Bald findet Lindstrøm auch Gehör bei Njörd, dem Gott des Meeres und Herr der Winde. Diesmal allerdings nur zur Freude der Männer.",
@@ -75,7 +80,8 @@ export const speaker = {
         "textAlign": "left",
         "top": "108%",
         "left": "70%",
-        "width": "20%"
+        "width": "20%",
+        "parallaxSpeed": "-0.3"
       },
     ],
   "4d": [
@@ -89,7 +95,8 @@ export const speaker = {
         "textAlign": "left",
         "top": "40%",
         "left": "0%",
-        "width": "20%"
+        "width": "20%",
+        "parallaxSpeed": "-0.3"
       },
       {
         "text_de": "Auch ein Telegramm ist durchs weltweite Telegrafennetz geflitzt – bis zu einer Poststelle in Melbourne, nur wenige Tage vor der Ankunft der Terra Nova.",
@@ -101,7 +108,8 @@ export const speaker = {
         "textAlign": "left",
         "top": "108%",
         "left": "70%",
-        "width": "20%"
+        "width": "20%",
+        "parallaxSpeed": "-0.3"
       },
     ]
   }

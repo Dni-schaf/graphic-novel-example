@@ -6,17 +6,17 @@ export function getCurrentChapterNumber(pathname) {
 }
 
 export function getChapterStartUrl(lang, chapterNumber) {
-  return `/${lang}/chapter${chapterNumber}#comic-start`;
+  return `/${lang}/chapter${chapterNumber}#srt`;
 }
 
 export function getNextChapterUrl(lang, currentChapterNumber) {
   const next = getNextChapterNumber(currentChapterNumber);
-  return next !== null ? `/${lang}/chapter${next}#comic-start` : null;
+  return next !== null ? `/${lang}/chapter${next}#srt` : null;
 }
 
 export function getPrevChapterUrl(lang, currentChapterNumber) {
   const prev = getPrevChapterNumber(currentChapterNumber);
-  return prev !== null ? `/${lang}/chapter${prev}#chapter-end` : null;
+  return prev !== null ? `/${lang}/chapter${prev}#end` : null;
 }
 
 export function getNextChapterNumber(current) {

@@ -8,9 +8,10 @@ export const speaker = {
       "color": "black",
       "backgroundColor": null,
       "textAlign": "left",
-      "top": "30%",
+      "top": "0%",
       "left": "0%",
-      "width": "20%"
+      "width": "20%",
+      "parallaxSpeed": "-0.3"
     },
     {
       "text_de": "Die Terra Nova zieht weiter, steuert erst Portsmouth, dann Weymouth an. Ausrüstung wird verladen, Hände werden geschüttelt, letzte Grüße ausgetauscht. Dann geht es weiter nach Cardiff – das große Finale der Abschiedstour.",
@@ -22,7 +23,8 @@ export const speaker = {
       "textAlign": "left",
       "top": "60%",
       "left": "70%",
-      "width": "20%"
+      "width": "20%",
+      "parallaxSpeed": "-0.3"
     },
     {
       "text_de": "Hier kommt auch Captain Scott endlich wieder an Bord. Doch die große Reise der Terra Nova kann noch nicht beginnen. Denn eine weitere, sehr wichtige Person lässt noch auf sich warten.",
@@ -34,7 +36,8 @@ export const speaker = {
       "textAlign": "left",
       "top": "90%",
       "left": "70%",
-      "width": "20%"
+      "width": "20%",
+      "parallaxSpeed": "-0.3"
     },
   ],
   "1b": [
@@ -48,7 +51,8 @@ export const speaker = {
       "textAlign": "left",
       "top": "30%",
       "left": "0%",
-      "width": "20%"
+      "width": "20%",
+      "parallaxSpeed": "-0.3"
     },
     {
       "text_de": "Fast vier Wochen nach dem Abschied von der Heimat erreicht die Terra Nova den Äquator. Mitten im endlosen Blau begeht die Mannschaft das alte Ritual der Äquatortaufe – halb ehrfürchtig, halb ausgelassen.",
@@ -60,7 +64,8 @@ export const speaker = {
       "textAlign": "left",
       "top": "60%",
       "left": "70%",
-      "width": "20%"
+      "width": "20%",
+      "parallaxSpeed": "-0.3"
     },
     {
       "text_de": "Dann Trindade: ein einsamer Felsen vor der brasilianischen Küste. Wilson führt eine kleine Gruppe über die wilde Insel. Gestein und Getier werden gesammelt, Gläser gefüllt, Notizbücher beschrieben.",
@@ -72,7 +77,8 @@ export const speaker = {
       "textAlign": "left",
       "top": "80%",
       "left": "0%",
-      "width": "20%"
+      "width": "20%",
+      "parallaxSpeed": "-0.3"
     },
     {
       "text_de": "Schließlich nimmt die Terra Nova Kurs auf das Kap der Guten Hoffnung. Acht Wochen auf See haben die Mannschaft geformt – aus einem Haufen Fremder ist eine mehr oder weniger eingeschworene Gemeinschaft geworden.",
@@ -83,7 +89,8 @@ export const speaker = {
       "textAlign": "left",
       "top": "90%",
       "left": "70%",
-      "width": "20%"
+      "width": "20%",
+      "parallaxSpeed": "-0.3"
     },
   ]
 }

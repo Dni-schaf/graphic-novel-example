@@ -1,9 +1,12 @@
 <script>
+  import ChapterStartSpacer from '$lib/components/ChapterStartSpacer.svelte';
+  import ChapterEndSpacer from '$lib/components/ChapterEndSpacer.svelte';
   import ComicSection from '$lib/components/ComicSection.svelte';
   import MapSection from '$lib/components/MapSection.svelte';
   import PureMap from '$lib/components/pureMap.svelte'; // Großbuchstabe für Komponenten-Konvention
   import { imageSets } from '$lib/data/chapter5_images.js';
   import { imageTexts } from '$lib/data/chapter5_texts.js';
+  import { speaker } from '$lib/data/chapter5_speaker.js';
 
     // Eine geordnete Liste aller Sections mit Typ und Höhe
   let sections = $state([
@@ -30,9 +33,10 @@ let comicHeights = $derived(
 <PureMap scale={150} rotate={[-70, 0]} chapterName="chapter5" {totalMapHeight}
   {comicHeights} {sections}/>
 
-<ComicSection chapterName="chapter5" imageNames={imageSets} {imageTexts} onHeightChange={(h) => updateHeight(0, h)}/>
-<MapSection dateStart="12.10.1910" dateEnd="01.11.1910" onHeightChange={(h) => updateHeight(1, h)}/>
-<div class="chapter-end-spacer" style="height: 200vh;"></div>
+<ChapterStartSpacer />
+<ComicSection id="srt" chapterName="chapter5" imageNames={imageSets} {imageTexts} onHeightChange={(h) => updateHeight(0, h)}/>
+<MapSection dateStart="12.10.1910" dateEnd="01.11.1910" sectionId="5a" speakerTexts={speaker} onHeightChange={(h) => updateHeight(1, h)}/>
+<ChapterEndSpacer />
 
 
 
