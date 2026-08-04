@@ -67,6 +67,18 @@
     background-position: center;
 }
 
+.speaker {
+    font-size: 1.4vw;
+    padding: 2%;
+    font-family: "chapter";
+    color: #000;
+    font-style: italic;
+    background-image: url("/images/ui/speaker.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .image-container {
     position: relative;
     margin-top: -5px;

@@ -5,6 +5,8 @@
   import PureMap from '$lib/components/pureMap.svelte'; // Großbuchstabe für Komponenten-Konvention
   import { imageSetA, imageSetB } from '$lib/data/chapter1_images.js';
   import { imageTexts } from '$lib/data/chapter1_texts.js';
+  import { speaker } from '$lib/data/chapter1_speaker.js';
+
 
     // Eine geordnete Liste aller Sections mit Typ und Höhe
   let sections = $state([
@@ -34,7 +36,7 @@ let comicHeights = $derived(
   {comicHeights} {sections}/>
 
 <ComicSection id="comic-start" chapterName="chapter1" imageNames={imageSetA} {imageTexts} onHeightChange={(h) => updateHeight(0, h)}/>
-<MapSection dateStart="02.06.1910" dateEnd="14.06.1910" onHeightChange={(h) => updateHeight(1, h)}/>
+<MapSection dateStart="02.06.1910" dateEnd="14.06.1910" sectionId="1a" speakerTexts={speaker} onHeightChange={(h) => updateHeight(1, h)} />
 
 <ComicSection chapterName="chapter1" imageNames={imageSetB} {imageTexts} onHeightChange={(h) => updateHeight(2, h)}/>
 <MapSection dateStart="15.06.1910" dateEnd="09.08.1910" onHeightChange={(h) => updateHeight(3, h)}/>

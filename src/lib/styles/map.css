@@ -8,6 +8,10 @@
     
 }
 
+.map-section{
+    position: relative;
+}
+
 #map {
     position: fixed;
 }

@@ -1,8 +1,11 @@
 <script>
   import { onMount } from 'svelte';
   import { mapState } from '$lib/state/mapState.svelte.js';
+  import SpeakerBubble from '$lib/components/SpeakerBubble.svelte';
   
-  
+  let { dateStart, dateEnd, onHeightChange, sectionId, speakerTexts } = $props();
+  let entries = $derived(speakerTexts?.[sectionId] || []);
+
   function convertToDate(dateString) {
     const [day, month, year] = dateString.split('.');
     return new Date(`${year}-${month}-${day}`).getTime();
@@ -57,7 +60,6 @@
     };
   });
 
-  let { dateStart, dateEnd, onHeightChange } = $props();
 
 let lastReportedHeight = 0;
 
@@ -76,7 +78,7 @@ $effect(() => {
 
 
 <div class="map-section" style="height: {divHeight}px;" bind:this={sectionElement}>
-  <!--<p style="position: sticky; top: 10px; background: yellow; z-index: 100; padding: 5px;">
-  sectionTop: {sectionTop.toFixed(0)} | scroll: {scrollPosition.toFixed(0)} | progress: {progress.toFixed(2)} | mapState: {mapState.progress.toFixed(2)}
-</p>-->
+  {#each entries as entry}
+    <SpeakerBubble textData={entry} />
+  {/each}
 </div>
