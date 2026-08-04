@@ -2,9 +2,10 @@
   import { onMount } from 'svelte';
   import * as d3 from 'd3';
   import * as topojson from 'topojson-client';
-
+  import { cityLabels } from '$lib/data/cityLabels.js';
   import { Amundsen } from '$lib/data/AmundsenData.js';
   import { Scott } from '$lib/data/ScottData.js';
+  import { languageState } from '$lib/state/language.svelte.js';
 
   let { scale, rotate, chapterName, totalMapHeight, comicHeights, sections } = $props();
 
@@ -53,6 +54,44 @@
 
     return result;
   });
+
+
+function drawLabels(labels, svglabel, projection, chapterName) {
+  labels.forEach((label) => {
+    if (!label.visibleInChapters.includes(chapterName)) return;
+
+    const coords = projection([label.lng, label.lat]);
+    const rawText = label[`text_${languageState.current}`] || label.text_de;
+    const lines = rawText.split('\n');
+
+    if (label.kind === 'city') {
+      svglabel.append("circle")
+        .attr("cx", coords[0])
+        .attr("cy", coords[1])
+        .attr("r", 3)
+        .attr("class", "city-circle " + label.text_de);
+    }
+
+    const textElement = svglabel.append("text")
+      .attr("x", coords[0])
+      .attr("y", coords[1])
+      .attr("text-anchor", label.kind === 'ocean' ? "middle" : "start")
+      .attr("dx", label.kind === 'ocean' ? "0" : "8px")
+      .attr("class", label.kind);
+
+    const lineHeight = "1.1em";
+    // Vertikale Zentrierung: bei 2 Zeilen startet die erste Zeile leicht über der Koordinate
+    const startDy = -((lines.length - 1) / 2) + "em";
+
+    lines.forEach((line, i) => {
+      textElement.append("tspan")
+        .attr("x", coords[0])
+        .attr("dy", i === 0 ? startDy : lineHeight)
+        .text(line);
+    });
+  });
+}
+
 
   function drawPath(dataset, svgpath, projection) {
     const datecount = dataset.length;
@@ -123,6 +162,9 @@
     const svgice = d3.select("#ice").append("svg").attr("width", breite).attr("height", hoehe);
     const svggrid = d3.select("#grid").append("svg").attr("width", breite).attr("height", hoehe);
     const svgpath = d3.select("#path").append("svg").attr("width", breite).attr("height", hoehe);
+    const svglabel = d3.select("#label").append("svg").attr("width", breite).attr("height", hoehe);
+
+
 
     const projection = d3.geoAzimuthalEqualArea()
       .rotate(rotate)
@@ -161,6 +203,8 @@
 
       hidelines(scottLengths.lengths, "Scott");
       hidelines(amundsenLengths.lengths, "Amundsen");
+    
+      drawLabels(cityLabels, svglabel, projection, chapterName)
 
       isReady = true;
     });
@@ -199,3 +243,4 @@
 <div id="ice"></div>
 <div id="grid"></div>
 <div id="path"></div>
+<div id="label"></div>

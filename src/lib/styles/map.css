@@ -70,3 +70,23 @@ path {
     /*stroke: #7492A8;  Randfarbe */
     stroke-width: 1px; /* Dicke des Randes */
 }
+
+.ocean {
+    font-family: "chapter";
+    font-size: 1.3vw;
+    font-size: 0,8vw;
+    fill: #9DB4C9; 
+    text-align: center;
+    font-size: 1.1vw;
+    letter-spacing: 0.1vw;
+}
+
+.continent {
+    font-family: "chapter";
+    font-size: 16px;
+    fill: #2E3B4B;
+    text-align: center;
+    font-size: 1vw;;
+    text-transform: uppercase;
+    letter-spacing: 0.1vw;
+}

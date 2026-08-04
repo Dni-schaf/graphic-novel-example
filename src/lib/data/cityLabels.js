@@ -6,7 +6,7 @@ export const cityLabels = [
     text_en: "Cardiff",
     text_no: "Cardiff",
     kind: "city",
-    visibleInChapters: ["chapter1"]
+    visibleInChapters: ["chapter1", "chapter2"]
   }, 
   {
     lng: -16.9186,
@@ -79,5 +79,88 @@ export const cityLabels = [
     text_no: "Trindade",
     kind: "city",
     visibleInChapters: ["chapter1"]
+  },
+  {
+    lat: 40,
+    lng: -43,
+    text_de: "Atlantischer\nOzean",
+    text_en: "Atlantic\nOcean",
+    text_no: "Atlanter-\nhavet",
+    kind: "ocean",
+    visibleInChapters: ["chapter1", "chapter2"],
+  },
+  {
+    lat: 25,
+    lng: 163,
+    text_de: "Pazifischer\nOzean",
+    text_en: "Pacific\nOcean",
+    text_no: "Stille-\nhavet",
+    kind: "ocean",
+    visibleInChapters: ["chapter1", "chapter2"],
+  },
+  {
+    lat: -10,
+    lng: 73,
+    text_de: "Indischer\nOzean",
+    text_en: "Indian\nOcean",
+    text_no: "India-\nhavet",
+    kind: "ocean",
+    visibleInChapters: ["chapter1", "chapter2"],
+  },
+  {
+    lat: 2,
+    lng: 173,
+    text_de: "Äquator",
+    text_en: "Equator",
+    text_no: "Ekvator",
+    kind: "ocean",
+    visibleInChapters: ["chapter1", "chapter2"],
+  },
+  {
+    lat: 12,
+    lng: 3,
+    text_de: "Afrika",
+    text_en: "Africa",
+    text_no: "Afrika",
+    kind: "continent",
+    visibleInChapters: ["chapter1", "chapter2"],
+  },
+  {
+    lat: 52,
+    lng: 80,
+    text_de: "Asien",
+    text_en: "Asia",
+    text_no: "Asia",
+    kind: "continent",
+    visibleInChapters: ["chapter1", "chapter2"],
+  },
+  {
+    lat: 45,
+    lng: 7,
+    text_de: "Europa",
+    text_en: "Europe",
+    text_no: "Europa",
+    kind: "continent",
+    visibleInChapters: ["chapter1", "chapter2"],
+  },
+  {
+    lat: -3,
+    lng: -79,
+    text_de: "Süd-\nAmerika",
+    text_en: "South\nAmerica",
+    text_no: "Sør-\nAmerika",
+    kind: "continent",
+    visibleInChapters: ["chapter1", "chapter2"],
+  },
+  {
+    lat: -30,
+    lng: 113,
+    text_de: "Australien",
+    text_en: "Australia",
+    text_no: "Australia",
+    kind: "continent",
+    visibleInChapters: ["chapter1", "chapter2"],
   }
 ];
+
+

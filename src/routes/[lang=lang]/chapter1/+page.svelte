@@ -30,7 +30,7 @@ let comicHeights = $derived(
 
 </script>
 
-<PureMap scale={150} rotate={[-70, 0]} chapterName="chapter1" {totalMapHeight}
+<PureMap scale={300} rotate={[0, -30]} chapterName="chapter1" {totalMapHeight}
   {comicHeights} {sections}/>
 
 <ComicSection id="comic-start" chapterName="chapter1" imageNames={imageSetA} {imageTexts} onHeightChange={(h) => updateHeight(0, h)}/>
