@@ -1,5 +1,7 @@
+   
+    
     #titel{
-      font-family: "Amiri", serif;
+      font-family: "AmiriBold", serif;
   font-weight: 700;
   font-style: normal;
         width: 100%;
@@ -17,19 +19,19 @@
 }
 
 .averia-libre-light {
-  font-family: "Averia Libre", system-ui;
+  font-family: "AveriaLibre", system-ui;
   font-weight: 300;
   font-style: normal;
 }
 
 .averia-libre-regular {
-  font-family: "Averia Libre", system-ui;
+  font-family: "AveriaLibre", system-ui;
   font-weight: 400;
   font-style: normal;
 }
 
 .averia-libre-bold {
-  font-family: "Averia Libre", system-ui;
+  font-family: "AveriaLibre", system-ui;
   font-weight: 700;
   font-style: normal;
 }
@@ -41,7 +43,7 @@
 }
 
 .protest-strike-regular {
-  font-family: "Protest Strike", sans-serif;
+  font-family: "ProtestStrike", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -262,8 +264,8 @@
 .card-bg-1 .card-headline-wrapper { left: 7%; bottom: 76%; width: 33%; }
 .card-bg-1 .card-sub-wrapper      { left: 7%; bottom: 43%; width: 90%; }
 
-.card-bg-2 .card-headline-wrapper { right: 7%; bottom: 96%; width: 50%; }
-.card-bg-2 .card-sub-wrapper      { left: 9%; bottom: 17%; width: 90%; }
+.card-bg-2 .card-headline-wrapper { right: 7%; bottom: 96%; width: 35%; }
+.card-bg-2 .card-sub-wrapper      { left: 4%; bottom: 17%; width: 93%; }
 
 .card-bg-3 .card-headline-wrapper { left: 18%; bottom: 68%; width: 33%; }
 .card-bg-3 .card-sub-wrapper      { left: 18%; bottom: 33%; width: 70%; }
@@ -291,43 +293,43 @@
 
 .card-bg-1 .card-headline {
   font-size: 2.1vw;
-    font-family: "Protest Strike", sans-serif;
+    font-family: ProtestStrike, sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
 .card-bg-1 .card-sub {
   font-size: 1.6vw;
-    font-family: "Protest Strike", sans-serif;
+    font-family: ProtestStrike, sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
 .card-bg-2 .card-headline {
-  font-size: 1.8vw;
+  font-size: 2.5vw;
   text-align: right;
-  font-family: "Averia Libre", system-ui;
+  font-family: Engagement, cursive;
   font-weight: 400;
   font-style: normal;
 }
 
 .card-bg-2 .card-sub {
   font-size: 1.2vw;
-  font-family: "Engagement", cursive;
+  font-family: AveriaLibre, system-ui;
   font-weight: 400;
   font-style: normal;
 }
 
 .card-bg-3 .card-headline {
   font-size: 2vw;
-  font-family: "Tagesschrift", system-ui;
+  font-family: Tagesschrift, system-ui;
   font-weight: 400;
   font-style: normal;
 }
 
 .card-bg-3 .card-sub {
   font-size: 1vw;
-  font-family: "Tagesschrift", system-ui;
+  font-family: Tagesschrift, system-ui;
   font-weight: 400;
   font-style: normal;
 }

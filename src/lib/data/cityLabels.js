@@ -6,7 +6,7 @@ export const cityLabels = [
     text_en: "Cardiff",
     text_no: "Cardiff",
     kind: "city",
-    visibleInChapters: ["chapter1", "chapter2"]
+    visibleInChapters: ["chapter1"]
   }, 
   {
     lng: -16.9186,
@@ -15,7 +15,7 @@ export const cityLabels = [
     text_en: "Funchal",
     text_no: "Funchal",
     kind: "city",
-    visibleInChapters: ["chapter1"]
+    visibleInChapters: ["chapter1", "chapter2", "chapter3"]
   },
   {
     lng: 18.4241,
@@ -24,7 +24,7 @@ export const cityLabels = [
     text_en: "Cape Town",
     text_no: "Cape Town",
     kind: "city",
-    visibleInChapters: ["chapter1"]
+    visibleInChapters: ["chapter2"]
   },
   {
     lng: 70.2167,
@@ -33,7 +33,7 @@ export const cityLabels = [
     text_en: "Kerguelen",
     text_no: "Kerguelen",
     kind: "city",
-    visibleInChapters: ["chapter1"]
+    visibleInChapters: ["chapter4"]
   },
   {
     lng: 172.7209,
@@ -42,7 +42,7 @@ export const cityLabels = [
     text_en: "Lyttelton",
     text_no: "Lyttelton",
     kind: "city",
-    visibleInChapters: ["chapter1"]
+    visibleInChapters: []
   },
   {
     lng: 144.9631,
@@ -51,7 +51,7 @@ export const cityLabels = [
     text_en: "Melbourne",
     text_no: "Melbourne",
     kind: "city",
-    visibleInChapters: ["chapter1"]
+    visibleInChapters: ["chapter5", "chapter6"]
   },
     {
     lng: 10.7522,
@@ -60,7 +60,7 @@ export const cityLabels = [
     text_en: "Oslo",
     text_no: "Oslo",
     kind: "city",
-    visibleInChapters: ["chapter1"]
+    visibleInChapters: ["chapter2"]
   },
   {
     lng: 0,
@@ -69,7 +69,7 @@ export const cityLabels = [
     text_en: "Southpole",
     text_no: "sørpolen",
     kind: "city",
-    visibleInChapters: ["chapter1"]
+    visibleInChapters: ["chapter1", "chapter2", "chapter3", "chapter4", "chapter5", "chapter6"]
   },
   {
     lng: -29.817,
@@ -78,7 +78,7 @@ export const cityLabels = [
     text_en: "Trindade",
     text_no: "Trindade",
     kind: "city",
-    visibleInChapters: ["chapter1"]
+    visibleInChapters: ["chapter2"]
   },
   {
     lat: 40,
@@ -87,7 +87,7 @@ export const cityLabels = [
     text_en: "Atlantic\nOcean",
     text_no: "Atlanter-\nhavet",
     kind: "ocean",
-    visibleInChapters: ["chapter1", "chapter2"],
+    visibleInChapters: ["chapter1", "chapter2", "chapter3", "chapter4", "chapter5", "chapter6"],
   },
   {
     lat: 25,
@@ -96,7 +96,7 @@ export const cityLabels = [
     text_en: "Pacific\nOcean",
     text_no: "Stille-\nhavet",
     kind: "ocean",
-    visibleInChapters: ["chapter1", "chapter2"],
+    visibleInChapters: ["chapter1", "chapter2", "chapter3", "chapter4", "chapter5", "chapter6"],
   },
   {
     lat: -10,
@@ -105,7 +105,7 @@ export const cityLabels = [
     text_en: "Indian\nOcean",
     text_no: "India-\nhavet",
     kind: "ocean",
-    visibleInChapters: ["chapter1", "chapter2"],
+    visibleInChapters: ["chapter1", "chapter2", "chapter3", "chapter4", "chapter5", "chapter6"],
   },
   {
     lat: 2,
@@ -114,7 +114,7 @@ export const cityLabels = [
     text_en: "Equator",
     text_no: "Ekvator",
     kind: "ocean",
-    visibleInChapters: ["chapter1", "chapter2"],
+    visibleInChapters: ["chapter1", "chapter2", "chapter3", "chapter4", "chapter5", "chapter6"],
   },
   {
     lat: 12,
@@ -123,7 +123,7 @@ export const cityLabels = [
     text_en: "Africa",
     text_no: "Afrika",
     kind: "continent",
-    visibleInChapters: ["chapter1", "chapter2"],
+    visibleInChapters: ["chapter1", "chapter2", "chapter3", "chapter4", "chapter5", "chapter6"],
   },
   {
     lat: 52,
@@ -132,7 +132,7 @@ export const cityLabels = [
     text_en: "Asia",
     text_no: "Asia",
     kind: "continent",
-    visibleInChapters: ["chapter1", "chapter2"],
+    visibleInChapters: ["chapter1", "chapter2", "chapter3", "chapter4", "chapter5", "chapter6"],
   },
   {
     lat: 45,
@@ -141,7 +141,7 @@ export const cityLabels = [
     text_en: "Europe",
     text_no: "Europa",
     kind: "continent",
-    visibleInChapters: ["chapter1", "chapter2"],
+    visibleInChapters: ["chapter1", "chapter2", "chapter3", "chapter4", "chapter5", "chapter6"],
   },
   {
     lat: -3,
@@ -150,7 +150,7 @@ export const cityLabels = [
     text_en: "South\nAmerica",
     text_no: "Sør-\nAmerika",
     kind: "continent",
-    visibleInChapters: ["chapter1", "chapter2"],
+    visibleInChapters: ["chapter1", "chapter2", "chapter3", "chapter4", "chapter5", "chapter6"],
   },
   {
     lat: -30,
@@ -159,7 +159,7 @@ export const cityLabels = [
     text_en: "Australia",
     text_no: "Australia",
     kind: "continent",
-    visibleInChapters: ["chapter1", "chapter2"],
+    visibleInChapters: ["chapter1", "chapter2", "chapter3", "chapter4", "chapter5", "chapter6"],
   }
 ];
 

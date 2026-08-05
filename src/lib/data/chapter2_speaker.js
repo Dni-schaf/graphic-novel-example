@@ -8,7 +8,7 @@ export const speaker = {
         "color": "black",
         "backgroundColor": null,
         "textAlign": "left",
-        "top": "51%",
+        "top": "-10%",
         "left": "70%",
         "width": "20%",
         "parallaxSpeed": "-0.3"
@@ -21,7 +21,7 @@ export const speaker = {
         "color": "black",
         "backgroundColor": null,
         "textAlign": "left",
-        "top": "59%",
+        "top": "10%",
         "left": "0%",
         "width": "20%",
         "parallaxSpeed": "-0.3"
@@ -34,7 +34,7 @@ export const speaker = {
         "color": "black",
         "backgroundColor": null,
         "textAlign": "left",
-        "top": "95%",
+        "top": "65%",
         "left": "70%",
         "width": "20%",
         "parallaxSpeed": "-0.3"
@@ -47,7 +47,7 @@ export const speaker = {
         "color": "black",
         "backgroundColor": null,
         "textAlign": "left",
-        "top": "104%",
+        "top": "90%",
         "left": "0%",
         "width": "20%",
         "parallaxSpeed": "-0.3"

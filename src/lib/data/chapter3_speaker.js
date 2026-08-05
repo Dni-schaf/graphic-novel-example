@@ -8,8 +8,8 @@ export const speaker = {
         "color": "black",
         "backgroundColor": null,
         "textAlign": "left",
-        "top": "39%",
-        "left": "70%",
+        "top": "9%",
+        "left": "5%",
         "width": "20%",
         "parallaxSpeed": "-0.3"
       },
@@ -21,7 +21,7 @@ export const speaker = {
         "color": "black",
         "backgroundColor": null,
         "textAlign": "left",
-        "top": "99%",
+        "top": "59%",
         "left": "70%",
         "width": "20%",
         "parallaxSpeed": "-0.3"

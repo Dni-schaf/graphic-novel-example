@@ -154,6 +154,7 @@ function drawLabels(labels, svglabel, projection, chapterName) {
     d3.select("#ice").select("svg").remove();
     d3.select("#grid").select("svg").remove();
     d3.select("#path").select("svg").remove();
+    d3.select("#label").select("svg").remove();
 
     const breite = window.innerWidth;
     const hoehe = window.innerHeight;
@@ -207,6 +208,10 @@ function drawLabels(labels, svglabel, projection, chapterName) {
       drawLabels(cityLabels, svglabel, projection, chapterName)
 
       isReady = true;
+      if (currentTimestamp !== null) {
+        updatePath(Scott, "Scott", scottLengths.lengths, scottLengths.times, currentTimestamp);
+        updatePath(Amundsen, "Amundsen", amundsenLengths.lengths, amundsenLengths.times, currentTimestamp);
+    }
     });
   }
 
@@ -218,15 +223,33 @@ function drawLabels(labels, svglabel, projection, chapterName) {
     }
   });
 
-  onMount(() => {
-    drawEverything();
+onMount(() => {
+  drawEverything();
 
-    let resizeTimeout;
-    window.addEventListener("resize", () => {
-      clearTimeout(resizeTimeout);
-      resizeTimeout = setTimeout(drawEverything, 150);
-    });
+  let resizeTimeout;
+  let lastDrawnWidth = window.innerWidth;
+  let lastDrawnHeight = window.innerHeight;
+  const heightTolerance = 150;
+
+  window.addEventListener("resize", () => {
+    const currentWidth = window.innerWidth;
+    const currentHeight = window.innerHeight;
+
+    const widthChanged = currentWidth !== lastDrawnWidth;
+    const heightChangedSignificantly = Math.abs(currentHeight - lastDrawnHeight) > heightTolerance;
+
+    if (!widthChanged && !heightChangedSignificantly) {
+      return;
+    }
+
+    clearTimeout(resizeTimeout);
+    resizeTimeout = setTimeout(() => {
+      drawEverything();
+      lastDrawnWidth = currentWidth;
+      lastDrawnHeight = currentHeight;
+    }, 150);
   });
+});
 </script>
 
 <svelte:window bind:scrollY />

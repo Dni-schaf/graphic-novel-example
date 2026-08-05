@@ -92,8 +92,8 @@ export const imageTexts ={
       "fontSize": "1.8vw",
       "textAlign": "left",
       "bottom": "81%",
-      "left": "79.8%",
-      "width": "21%"
+      "left": "80.8%",
+      "width": "16%"
     }
   ],
   "02_TN_08": [
@@ -108,7 +108,7 @@ export const imageTexts ={
       "textAlign": "right",
       "bottom": "69%",
       "left": "0%",
-      "width": "16%"
+      "width": "15%"
     },
     {
       "text_de": "Dieser Morus Capensis ist vorerst das letzte Präparat für London. Versprochen!",
@@ -119,7 +119,7 @@ export const imageTexts ={
       "backgroundColor": "alltag_light",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "71%",
+      "bottom": "73%",
       "left": "32.5%",
       "width": "17%"
     },
@@ -133,7 +133,7 @@ export const imageTexts ={
       "fontSize": "1.8vw",
       "textAlign": "right",
       "bottom": "63%",
-      "left": "52%",
+      "left": "51%",
       "width": "13%"
     },
     {
@@ -145,7 +145,7 @@ export const imageTexts ={
       "backgroundColor": "alltag_light",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "83%",
+      "bottom": "86%",
       "left": "91%",
       "width": "10%"
     }
@@ -236,11 +236,11 @@ export const imageTexts ={
   ],
   "02_TN_12": [
     {
-      "text_de": "Sieh dir diesen Glasschwamm an, Cherry! Ein Prachtexemplar.",
-      "text_en": "Look at this glass sponge, Cherry! What a beauty.",
+      "text_de": "Sieh dir diesen Glasschwamm an, Cherry!",
+      "text_en": "Look at this glass sponge, Cherry!",
       "text_no": "no",
       "kind": "dialog",
-      "color": "white",
+      "color": "black",
       "backgroundColor": "alltag_middle",
       "fontSize": "1.8vw",
       "textAlign": "left",
@@ -251,8 +251,8 @@ export const imageTexts ={
   ],
   "02_TN_13": [
     {
-      "text_de": "Wie alt würdest du ihn schätzen?",
-      "text_en": "How old do you reckon it is?",
+      "text_de": "Ein Prachtexemplar.",
+      "text_en": "What a beauty.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -272,9 +272,9 @@ export const imageTexts ={
       "backgroundColor": "bg_white",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "87%",
+      "bottom": "89%",
       "left": "41%",
-      "width": "15%"
+      "width": "16%"
     }
   ],
   "02_TN_14": [
@@ -298,8 +298,8 @@ export const imageTexts ={
       "text_en": "Black devil! Don’t you go bringing us bad luck!",
       "text_no": "no",
       "kind": "dialog",
-      "color": "white",
-      "backgroundColor": "alltag_dark",
+      "color": "black",
+      "backgroundColor": "alltag_middle",
       "fontSize": "1.8vw",
       "textAlign": "left",
       "bottom": "71%",
@@ -346,7 +346,7 @@ export const imageTexts ={
       "fontSize": "1.8vw",
       "textAlign": "left",
       "bottom": "73%",
-      "left": "89%",
+      "left": "86%",
       "width": "13%"
     }
   ],
@@ -468,11 +468,11 @@ export const imageTexts ={
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "bg_white",
-      "fontSize": "1.8vw",
+      "fontSize": "2.3vw",
       "textAlign": "right",
-      "bottom": "87%",
+      "bottom": "85%",
       "left": "1%",
-      "width": "12%"
+      "width": "14%"
     },
     {
       "text_de": "Was hat es eigentlich mit diesem Norweger auf sich?",
@@ -510,7 +510,7 @@ export const imageTexts ={
       "fontSize": "1.8vw",
       "textAlign": "left",
       "bottom": "41%",
-      "left": "10%",
+      "left": "5%",
       "width": "13%"
     },
     {
@@ -520,7 +520,7 @@ export const imageTexts ={
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "alltag_light",
-      "fontSize": "1.8vw",
+      "fontSize": "2.3vw",
       "textAlign": "right",
       "bottom": "61%",
       "left": "66%",
@@ -559,11 +559,11 @@ export const imageTexts ={
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "bg_white",
-      "fontSize": "1.8vw",
+      "fontSize": "2.3vw",
       "textAlign": "left",
-      "bottom": "38%",
+      "bottom": "36%",
       "left": "37%",
-      "width": "8%"
+      "width": "10%"
     },
     {
       "text_de": "Scott hat ihn in Norwegen kennengelernt und gleich angeworben.",
@@ -587,7 +587,7 @@ export const imageTexts ={
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "alltag_light",
-      "fontSize": "1.8vw",
+      "fontSize": "2.3vw",
       "textAlign": "left",
       "bottom": "64%",
       "left": "6%",
@@ -726,7 +726,7 @@ export const imageTexts ={
       "fontSize": "1.8vw",
       "textAlign": "left",
       "bottom": "28%",
-      "left": "58%",
+      "left": "62%",
       "width": "20%"
     },
     {
@@ -863,9 +863,9 @@ export const imageTexts ={
       "backgroundColor": "alltag_light",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "64%",
-      "left": "29%",
-      "width": "14%"
+      "bottom": "59%",
+      "left": "33%",
+      "width": "12%"
     },
     {
       "text_de": "Der rechte Haken des Norwegers hat ordentlich Wumms.",
@@ -943,8 +943,8 @@ export const imageTexts ={
       "text_en": "Excellent! Our sightings are getting more and more precise.",
       "text_no": "no",
       "kind": "dialog",
-      "color": "white",
-      "backgroundColor": "alltag_dark",
+      "color": "black",
+      "backgroundColor": "alltag_light",
       "fontSize": "1.8vw",
       "textAlign": "right",
       "bottom": "64%",
@@ -1034,7 +1034,7 @@ export const imageTexts ={
       "fontSize": "1.8vw",
       "textAlign": "right",
       "bottom": "75%",
-      "left": "36%",
+      "left": "38%",
       "width": "18%"
     }
   ],
@@ -1122,8 +1122,8 @@ export const imageTexts ={
       "fontSize": "1.8vw",
       "textAlign": "right",
       "bottom": "51%",
-      "left": "33%",
-      "width": "20%"
+      "left": "32%",
+      "width": "21%"
     }
   ],
   "02_TN_45": [
@@ -1276,7 +1276,7 @@ export const imageTexts ={
       "backgroundColor": "alltag_light",
       "fontSize": "1.8vw",
       "textAlign": "right",
-      "bottom": "72%",
+      "bottom": "60%",
       "left": "1%",
       "width": "15%"
     }
@@ -1298,8 +1298,8 @@ export const imageTexts ={
   ],
   "02_TN_54": [
     {
-      "text_de": "Ich kann es kaum erwarten, unseren Captain an Bord zu haben.",
-      "text_en": "I can hardly wait to have our Captain aboard.",
+      "text_de": "Ich kann es kaum erwarten, den Captain an Bord zu haben.",
+      "text_en": "I can hardly wait to have the Captain aboard.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -1392,8 +1392,8 @@ export const imageTexts ={
       "backgroundColor": "alltag_light",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "94%",
-      "left": "29%",
+      "bottom": "92%",
+      "left": "27%",
       "width": "22%"
     },
     {
@@ -1405,8 +1405,8 @@ export const imageTexts ={
       "backgroundColor": "alltag_light",
       "fontSize": "1.8vw",
       "textAlign": "right",
-      "bottom": "86%",
-      "left": "4%",
+      "bottom": "80%",
+      "left": "3%",
       "width": "17%"
     }
   ]

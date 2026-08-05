@@ -18,3 +18,27 @@
     font-family: Location;
     src: url('/fonts/Finlandica-Bold.ttf') format('truetype');
 }
+@font-face {
+    font-family: ProtestStrike;
+    src: url('/fonts/ProtestStrike-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: AveriaLibre;
+    src: url('/fonts/AveriaLibre-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: Engagement;
+    src: url('/fonts/Engagement-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: Tagesschrift;
+    src: url('/fonts/Tagesschrift-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: AmiriBold;
+    src: url('/fonts/Amiri-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: Amiri;
+    src: url('/fonts/Amiri-Regular.ttf') format('truetype');
+}
