@@ -13,7 +13,7 @@
     // Eine geordnete Liste aller Sections mit Typ und Höhe
   let sections = $state([
     { type: 'comic', height: 0 },  // ComicSection A
-    { type: 'map',   height: 0, dateStart: "02.06.1910", dateEnd: "14.06.1910"},  // MapSection 1a
+    { type: 'map',   height: 0, dateStart: "02.06.1910", dateEnd: "14.06.1910", mapScale: 600, mapRotate: [0, -50]},  // MapSection 1a
     { type: 'comic', height: 0 },  // ComicSection B
     { type: 'map',   height: 0, dateStart: "15.06.1910", dateEnd: "09.08.1910" },  // MapSection 1b
   ]);

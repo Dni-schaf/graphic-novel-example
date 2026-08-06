@@ -13,6 +13,9 @@
   let scrollY = $state(0);
   let scottLengths = { lengths: [], times: [] };
   let amundsenLengths = { lengths: [], times: [] };
+  let cachedIce = null;
+  let cachedWorld = null;
+  let lastDrawnParamsKey = null;
 
   function convertToDate(dateString) {
   const [day, month, year] = dateString.split('.');
@@ -55,6 +58,29 @@
     return result;
   });
 
+  let activeMapParams = $derived.by(() => {
+    if (!sections || sections.length === 0) return { scale, rotate };
+
+    let currentTop = 0;
+    let result = { scale, rotate };
+
+    for (const section of sections) {
+      const sectionTop = currentTop;
+      const sectionBottom = currentTop + section.height;
+
+    if (section.type === 'map' && scrollY >= sectionTop - section.height) {
+        result = {
+          scale: section.mapScale ?? scale,
+          rotate: section.mapRotate ?? rotate
+        };
+      }
+
+      currentTop = sectionBottom;
+    }
+
+    return result;
+  });
+
 
 function drawLabels(labels, svglabel, projection, chapterName) {
   labels.forEach((label) => {
@@ -74,7 +100,7 @@ function drawLabels(labels, svglabel, projection, chapterName) {
 
     const textElement = svglabel.append("text")
       .attr("x", coords[0])
-      .attr("y", coords[1])
+      .attr("y", coords[1]-4)
       .attr("text-anchor", label.kind === 'ocean' ? "middle" : "start")
       .attr("dx", label.kind === 'ocean' ? "0" : "8px")
       .attr("class", label.kind);
@@ -149,8 +175,7 @@ function drawLabels(labels, svglabel, projection, chapterName) {
     }
   }
 
-  function drawEverything() {
-    d3.select("#map").select("svg").remove();
+function drawEverything(currentScale, currentRotate) {    d3.select("#map").select("svg").remove();
     d3.select("#ice").select("svg").remove();
     d3.select("#grid").select("svg").remove();
     d3.select("#path").select("svg").remove();
@@ -166,51 +191,59 @@ function drawLabels(labels, svglabel, projection, chapterName) {
     const svglabel = d3.select("#label").append("svg").attr("width", breite).attr("height", hoehe);
 
 
-
     const projection = d3.geoAzimuthalEqualArea()
-      .rotate(rotate)
-      .scale(scale)
+      .rotate(currentRotate)
+      .scale(currentScale)
       .translate([breite / 2, hoehe / 2]);
 
     const path = d3.geoPath().projection(projection);
     const graticule = d3.geoGraticule().step([20, 15]);
 
-    Promise.all([
-      d3.json("/data/Shelf_Ice_Data.json"),
-      d3.json("/data/110m.json")
+  const dataPromise = (cachedIce && cachedWorld)
+    ? Promise.resolve([cachedIce, cachedWorld])
+    : Promise.all([
+        d3.json("/data/Shelf_Ice_Data.json"),
+        d3.json("/data/110m.json")
       ]).then(([ice, world]) => {
-      svgice.append("g")
-        .attr("class", "iceshelf")
-        .selectAll("path")
-        .data(ice.features)
-        .enter().append("path")
-        .attr('d', path)
-        .attr("class", "ice");
+        cachedIce = ice;
+        cachedWorld = world;
+        return [ice, world];
+      });
 
-      svgmap.append("path").datum(graticule.outline).attr("class", "foreground").attr("d", path);
-      svgmap.append("g")
-        .selectAll("path")
-        .data(topojson.feature(world, world.objects.countries).features)
-        .enter().append("path")
-        .attr("d", path)
-        .attr("class", "map");
-      svggrid.append("path").datum(graticule).attr("class", "graticule").attr("d", path);
+  dataPromise.then(([ice, world]) => {
+    svgice.append("g")
+      .attr("class", "iceshelf")
+      .selectAll("path")
+      .data(ice.features)
+      .enter().append("path")
+      .attr('d', path)
+      .attr("class", "ice");
 
-      drawPath(Scott, svgpath, projection);
-      drawPath(Amundsen, svgpath, projection);
+    svgmap.append("path").datum(graticule.outline).attr("class", "foreground").attr("d", path);
+    svgmap.append("g")
+      .selectAll("path")
+      .data(topojson.feature(world, world.objects.countries).features)
+      .enter().append("path")
+      .attr("d", path)
+      .attr("class", "map");
+    svggrid.append("path").datum(graticule).attr("class", "graticule").attr("d", path);
 
-      scottLengths = fillLength(Scott, "Scott");
-      amundsenLengths = fillLength(Amundsen, "Amundsen");
+    drawPath(Scott, svgpath, projection);
+    drawPath(Amundsen, svgpath, projection);
 
-      hidelines(scottLengths.lengths, "Scott");
-      hidelines(amundsenLengths.lengths, "Amundsen");
-    
-      drawLabels(cityLabels, svglabel, projection, chapterName)
+    scottLengths = fillLength(Scott, "Scott");
+    amundsenLengths = fillLength(Amundsen, "Amundsen");
 
-      isReady = true;
-      if (currentTimestamp !== null) {
-        updatePath(Scott, "Scott", scottLengths.lengths, scottLengths.times, currentTimestamp);
-        updatePath(Amundsen, "Amundsen", amundsenLengths.lengths, amundsenLengths.times, currentTimestamp);
+    hidelines(scottLengths.lengths, "Scott");
+    hidelines(amundsenLengths.lengths, "Amundsen");
+
+    drawLabels(cityLabels, svglabel, projection, chapterName);
+
+    isReady = true;
+
+    if (currentTimestamp !== null) {
+      updatePath(Scott, "Scott", scottLengths.lengths, scottLengths.times, currentTimestamp);
+      updatePath(Amundsen, "Amundsen", amundsenLengths.lengths, amundsenLengths.times, currentTimestamp);
     }
     });
   }
@@ -224,7 +257,9 @@ function drawLabels(labels, svglabel, projection, chapterName) {
   });
 
 onMount(() => {
-  drawEverything();
+  const initial = activeMapParams;
+  lastDrawnParamsKey = JSON.stringify(initial);
+  drawEverything(initial.scale, initial.rotate);
 
   let resizeTimeout;
   let lastDrawnWidth = window.innerWidth;
@@ -244,11 +279,22 @@ onMount(() => {
 
     clearTimeout(resizeTimeout);
     resizeTimeout = setTimeout(() => {
-      drawEverything();
+      const params = activeMapParams;
+      drawEverything(params.scale, params.rotate);
+      lastDrawnParamsKey = JSON.stringify(params);
       lastDrawnWidth = currentWidth;
       lastDrawnHeight = currentHeight;
     }, 150);
   });
+});
+
+$effect(() => {
+  const params = activeMapParams;
+  const key = JSON.stringify(params);
+  if (key !== lastDrawnParamsKey) {
+    lastDrawnParamsKey = key;
+    drawEverything(params.scale, params.rotate);
+  }
 });
 </script>
 
