@@ -236,8 +236,8 @@ export const imageTexts ={
   ],
   "02_TN_12": [
     {
-      "text_de": "Sieh dir diesen Glasschwamm an, Cherry!",
-      "text_en": "Look at this glass sponge, Cherry!",
+      "text_de": "Sieh dir diesen Glasschwamm an, Cherry! Ein Prachtexemplar.",
+      "text_en": "Look at this glass sponge, Cherry! What a beauty.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -251,8 +251,8 @@ export const imageTexts ={
   ],
   "02_TN_13": [
     {
-      "text_de": "Ein Prachtexemplar.",
-      "text_en": "What a beauty.",
+      "text_de": "Wie alt würdest du ihn schätzen?",
+      "text_en": "How old do you reckon it is?",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -1298,8 +1298,8 @@ export const imageTexts ={
   ],
   "02_TN_54": [
     {
-      "text_de": "Ich kann es kaum erwarten, den Captain an Bord zu haben.",
-      "text_en": "I can hardly wait to have the Captain aboard.",
+      "text_de": "Ich kann es kaum erwarten, unseren Captain an Bord zu haben.",
+      "text_en": "I can hardly wait to have our Captain aboard.",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",

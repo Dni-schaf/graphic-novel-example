@@ -1,19 +1,15 @@
 .white{
     color: white;
 }
-
 .black{
     color: black
 }
-
 .bg_white{
     background-color: var(--bg_white);
 }
-
 .bg_black{
     background-color: var(--bg_black);
 }
-
 .start_dark{
     background-color: var(--start_dark);
 }
@@ -23,17 +19,15 @@
 .start_light {
     background-color: var(--start_light);
 }
-
 .alltag_dark{
     background-color: var(--alltag_dark);
-  }
+}
 .alltag_middle{
     background-color: var(--alltag_middle);
 }  
 .alltag_light{
     background-color: var(--alltag_light);
 }
-
 .madeira_dark{
     background-color: var(--madeira_dark);
 }
@@ -43,7 +37,6 @@
 .madeira_light{
     background-color: var(--madeira_light);
 }
-
 .hundstag_dark{
     background-color: var(--hundstag_dark);
 }
@@ -53,17 +46,15 @@
 .hundstag_light{
     background-color: var(--hundstag_light);
 }
-
 .post_dark{
     background-color: var(--post_dark);
-  }
+}
 .post_middle{
     background-color: var(--post_middle);
 }
 .post_light{
     background-color: var(--post_light);
 }
-
 .post_dream_dark{
     background-color: var(--post_dream_dark);
 }
@@ -73,7 +64,6 @@
 .post_dream_light{
     background-color: var(--post_dream_light);
 }
-
 .FSturm_dark{
     background-color: var(--FSturm_dark);
 }
@@ -83,7 +73,6 @@
 .FSturm_light{
     background-color: var(--FSturm_light);
 }
-
 .FSturm_FB_dark{
     background-color: var(--FSturm_FB_dark);
 }

@@ -35,7 +35,7 @@ export const imageTexts = {
       "backgroundColor": "",
       "fontSize": "",
       "textAlign": "left",
-      "bottom": "62.8%",
+      "bottom": "48%",
       "left": "0%",
       "width": "100%"
     },
@@ -48,7 +48,7 @@ export const imageTexts = {
       "backgroundColor": "",
       "fontSize": "",
       "textAlign": "left",
-      "bottom": "62%",
+      "bottom": "47%",
       "left": "0%",
       "width": "100%"
     }
@@ -63,7 +63,7 @@ export const imageTexts = {
       "backgroundColor": "bg_white",
       "fontSize": "1.8vw",
       "textAlign": "right",
-      "bottom": "54%",
+      "bottom": "56%",
       "left": "56%",
       "width": "20%"
     }
@@ -134,7 +134,7 @@ export const imageTexts = {
       "backgroundColor": "bg_white",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "70%",
+      "bottom": "67%",
       "left": "13%",
       "width": "20%"
     },
@@ -161,7 +161,7 @@ export const imageTexts = {
       "fontSize": "1.8vw",
       "textAlign": "right",
       "bottom": "63%",
-      "left": "77%",
+      "left": "73%",
       "width": "20%"
     }
   ],
@@ -175,8 +175,8 @@ export const imageTexts = {
       "backgroundColor": "bg_white",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "63%",
-      "left": "27%",
+      "bottom": "60%",
+      "left": "28%",
       "width": "20%"
     },
     {
@@ -190,7 +190,7 @@ export const imageTexts = {
       "textAlign": "right",
       "bottom": "64%",
       "left": "59%",
-      "width": "27%"
+      "width": "26%"
     }
   ],
   "04a_F_07": [
@@ -233,7 +233,7 @@ export const imageTexts = {
       "textAlign": "right",
       "bottom": "68%",
       "left": "32%",
-      "width": "24%"
+      "width": "23%"
     }
   ],
   "04a_F_09": [
@@ -248,7 +248,7 @@ export const imageTexts = {
       "textAlign": "right",
       "bottom": "64%",
       "left": "35%",
-      "width": "25%"
+      "width": "24%"
     }
   ],
   "04a_F_10": [
@@ -261,8 +261,8 @@ export const imageTexts = {
       "backgroundColor": "bg_white",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "62%",
-      "left": "31%",
+      "bottom": "66%",
+      "left": "33%",
       "width": "20%"
     }
   ],
@@ -276,8 +276,8 @@ export const imageTexts = {
       "backgroundColor": "bg_white",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "70%",
-      "left": "20%",
+      "bottom": "69%",
+      "left": "22%",
       "width": "20%"
     }
   ],
@@ -321,7 +321,7 @@ export const imageTexts = {
       "textAlign": "left",
       "bottom": "6%",
       "left": "42%",
-      "width": "22%"
+      "width": "24%"
     }
   ],
   "04a_F_14": [
@@ -347,7 +347,7 @@ export const imageTexts = {
       "backgroundColor": "bg_white",
       "fontSize": "1.8vw",
       "textAlign": "right",
-      "bottom": "39%",
+      "bottom": "35%",
       "left": "54%",
       "width": "15%"
     }
@@ -379,7 +379,7 @@ export const imageTexts = {
       "textAlign": "right",
       "bottom": "58%",
       "left": "84%",
-      "width": "12%"
+      "width": "11%"
     }
   ],
   "04a_F_17": [
@@ -405,9 +405,9 @@ export const imageTexts = {
       "backgroundColor": "bg_white",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "63%",
+      "bottom": "61%",
       "left": "50%",
-      "width": "14%"
+      "width": "13%"
     },
     {
       "text_de": "Schließlich will ich am Südpol noch ein paar rauchen.",
@@ -418,7 +418,7 @@ export const imageTexts = {
       "backgroundColor": "bg_white",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "64%",
+      "bottom": "67%",
       "left": "84%",
       "width": "15%"
     }
@@ -448,7 +448,7 @@ export const imageTexts = {
       "backgroundColor": "bg_white",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "84%",
+      "bottom": "85%",
       "left": "79%",
       "width": "13%"
     }
@@ -476,7 +476,7 @@ export const imageTexts = {
       "backgroundColor": "hundstag_middle",
       "fontSize": "2.8vw",
       "textAlign": "right",
-      "bottom": "33%",
+      "bottom": "35%",
       "left": "31%",
       "width": "24%"
     },
@@ -490,7 +490,7 @@ export const imageTexts = {
       "fontSize": "1.8vw",
       "textAlign": "left",
       "bottom": "79%",
-      "left": "59%",
+      "left": "56%",
       "width": "20%"
     }
   ],
@@ -517,7 +517,7 @@ export const imageTexts = {
       "backgroundColor": "bg_white",
       "fontSize": "1.8vw",
       "textAlign": "right",
-      "bottom": "52%",
+      "bottom": "60%",
       "left": "13%",
       "width": "20%"
     }
@@ -547,8 +547,8 @@ export const imageTexts = {
       "backgroundColor": "bg_white",
       "fontSize": "2.8vw",
       "textAlign": "right",
-      "bottom": "54%",
-      "left": "43%",
+      "bottom": "60%",
+      "left": "41%",
       "width": "20%"
     },
     {
@@ -619,7 +619,7 @@ export const imageTexts = {
       "fontSize": "1.8vw",
       "textAlign": "left",
       "bottom": "67%",
-      "left": "22%",
+      "left": "25%",
       "width": "26%"
     },
     {
@@ -646,7 +646,7 @@ export const imageTexts = {
       "backgroundColor": "bg_white",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "83%",
+      "bottom": "84%",
       "left": "40%",
       "width": "20%"
     }
@@ -689,9 +689,9 @@ export const imageTexts = {
       "backgroundColor": "bg_white",
       "fontSize": "1.8vw",
       "textAlign": "right",
-      "bottom": "77%",
+      "bottom": "78%",
       "left": "43%",
-      "width": "15%"
+      "width": "13%"
     }
   ],
   "04b_F_05": [
@@ -704,8 +704,8 @@ export const imageTexts = {
       "backgroundColor": "hundstag_light",
       "fontSize": "1.8vw",
       "textAlign": "right",
-      "bottom": "63%",
-      "left": "50%",
+      "bottom": "65%",
+      "left": "48%",
       "width": "20%"
     }
   ],
@@ -732,9 +732,9 @@ export const imageTexts = {
       "backgroundColor": "hundstag_light",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "79%",
-      "left": "85%",
-      "width": "17%"
+      "bottom": "80%",
+      "left": "87%",
+      "width": "15%"
     }
   ],
   "04b_F_07": [
@@ -762,7 +762,7 @@ export const imageTexts = {
       "textAlign": "left",
       "bottom": "61%",
       "left": "28%",
-      "width": "19%"
+      "width": "13%"
     }
   ],
   "04b_F_08": [
@@ -788,8 +788,8 @@ export const imageTexts = {
       "backgroundColor": "bg_transparent",
       "fontSize": "2.8vw",
       "textAlign": "left",
-      "bottom": "59%",
-      "left": "2%",
+      "bottom": "63%",
+      "left": "4%",
       "width": "9%"
     },
     {
@@ -829,7 +829,7 @@ export const imageTexts = {
       "backgroundColor": "hundstag_light",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "37%",
+      "bottom": "41%",
       "left": "28%",
       "width": "17%"
     },
@@ -853,13 +853,13 @@ export const imageTexts = {
       "text_en": "Ah! Explains why my spoon was upright in it this morning.",
       "text_no": "no",
       "kind": "dialog",
-      "color": "white",
+      "color": "black",
       "backgroundColor": "bg_white",
       "fontSize": "1.8vw",
       "textAlign": "right",
       "bottom": "0%",
-      "left": "32%",
-      "width": "20%"
+      "left": "34%",
+      "width": "18%"
     }
   ],
   "04b_F_11": [
@@ -885,9 +885,9 @@ export const imageTexts = {
       "backgroundColor": "bg_white",
       "fontSize": "1.8vw",
       "textAlign": "right",
-      "bottom": "85%",
+      "bottom": "86%",
       "left": "55%",
-      "width": "19%"
+      "width": "17%"
     }
   ],
   "04b_F_12": [
@@ -902,7 +902,7 @@ export const imageTexts = {
       "textAlign": "right",
       "bottom": "71%",
       "left": "35%",
-      "width": "19%"
+      "width": "18%"
     }
   ],
   "04b_F_13": [
@@ -925,7 +925,7 @@ export const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "hundstag_middle",
+      "backgroundColor": "hundstag_dark",
       "fontSize": "1.8vw",
       "textAlign": "left",
       "bottom": "66%",
@@ -1010,9 +1010,9 @@ export const imageTexts = {
       "backgroundColor": "bg_white",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "81%",
-      "left": "82%",
-      "width": "14%"
+      "bottom": "78%",
+      "left": "87%",
+      "width": "12%"
     }
   ],
   "04b_F_16": [
@@ -1038,7 +1038,7 @@ export const imageTexts = {
       "backgroundColor": "hundstag_middle",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "1%",
+      "bottom": "4%",
       "left": "70%",
       "width": "20%"
     }
@@ -1195,7 +1195,7 @@ export const imageTexts = {
       "textAlign": "right",
       "bottom": "77%",
       "left": "42%",
-      "width": "16%"
+      "width": "14%"
     },
     {
       "text_de": "Pustekuchen – wir sind ja noch nicht mal am Äquator! Wir bekommen sicher noch über 30 Grad.",
@@ -1294,7 +1294,7 @@ export const imageTexts = {
       "textAlign": "left",
       "bottom": "82%",
       "left": "59%",
-      "width": "15%"
+      "width": "14%"
     }
   ],
   "04c_F_04": [
@@ -1308,8 +1308,8 @@ export const imageTexts = {
       "fontSize": "1.8vw",
       "textAlign": "right",
       "bottom": "63%",
-      "left": "25%",
-      "width": "15%"
+      "left": "26%",
+      "width": "14%"
     }
   ],
   "04c_F_05": [
@@ -1322,9 +1322,9 @@ export const imageTexts = {
       "backgroundColor": "bg_white",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "76%",
+      "bottom": "74%",
       "left": "27%",
-      "width": "12%"
+      "width": "11%"
     }
   ],
   "04c_F_06": [
@@ -1380,7 +1380,7 @@ export const imageTexts = {
       "textAlign": "right",
       "bottom": "58%",
       "left": "32%",
-      "width": "12%"
+      "width": "11%"
     },
     {
       "text_de": "Ich geb mich noch nicht geschlagen – nicht, bis wir den Äquator passiert haben.",
@@ -1464,7 +1464,7 @@ export const imageTexts = {
       "textAlign": "right",
       "bottom": "8%",
       "left": "0%",
-      "width": "12%"
+      "width": "11%"
     },
     {
       "text_de": "CHEF!",
@@ -1475,8 +1475,8 @@ export const imageTexts = {
       "backgroundColor": "bg_white",
       "fontSize": "2.2vw",
       "textAlign": "right",
-      "bottom": "75%",
-      "left": "12%",
+      "bottom": "71%",
+      "left": "11%",
       "width": "20%"
     },
     {
@@ -1503,9 +1503,9 @@ export const imageTexts = {
       "backgroundColor": "bg_white",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
+      "bottom": "87%",
       "left": "58%",
-      "width": "33%"
+      "width": "34%"
     },
     {
       "text_de": "Johansen hat seine Sorgenkinder schon „Liket“ und „Dødsengelen“ getauft.",
@@ -1516,7 +1516,7 @@ export const imageTexts = {
       "backgroundColor": "bg_white",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "75%",
+      "bottom": "78%",
       "left": "56%",
       "width": "23%"
     }
@@ -1573,7 +1573,7 @@ export const imageTexts = {
       "fontSize": "1.3vw",
       "textAlign": "left",
       "bottom": "73%",
-      "left": "42%",
+      "left": "44%",
       "width": "15%"
     }
   ],
@@ -1631,8 +1631,8 @@ export const imageTexts = {
       "fontSize": "1.8vw",
       "textAlign": "right",
       "bottom": "75%",
-      "left": "0%",
-      "width": "20%"
+      "left": "4%",
+      "width": "12%"
     },
     {
       "text_de": "Das wird noch dauern.",
@@ -1671,7 +1671,7 @@ export const imageTexts = {
       "backgroundColor": "bg_white",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "79%",
+      "bottom": "81%",
       "left": "23%",
       "width": "20%"
     },
@@ -1686,7 +1686,7 @@ export const imageTexts = {
       "textAlign": "right",
       "bottom": "70%",
       "left": "44%",
-      "width": "11%"
+      "width": "9%"
     },
     {
       "text_de": "Ruhig, mein Guter.",
@@ -1697,9 +1697,9 @@ export const imageTexts = {
       "backgroundColor": "bg_white",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "70%",
-      "left": "86%",
-      "width": "20%"
+      "bottom": "68%",
+      "left": "88%",
+      "width": "11%"
     }
   ],
   "04c_F_18": [
@@ -1783,7 +1783,7 @@ export const imageTexts = {
       "textAlign": "right",
       "bottom": "90%",
       "left": "14%",
-      "width": "20%"
+      "width": "18%"
     },
     {
       "text_de": "Die Männer werden sich freuen – bei der Hitze hunderte Ösen und Stifte zu schmieden!",
@@ -1838,7 +1838,7 @@ export const imageTexts = {
       "fontSize": "1.8vw",
       "textAlign": "left",
       "bottom": "80%",
-      "left": "64%",
+      "left": "57%",
       "width": "12%"
     }
   ],
@@ -1865,11 +1865,11 @@ export const imageTexts = {
       "backgroundColor": "",
       "fontSize": "",
       "textAlign": "left",
-      "bottom": "66%",
+      "bottom": "66.5%",
       "left": "0%",
       "width": "100%"
     }
-     ],
+  ],
   "04d_F_01b": [
     {
       "text_de": "Njörd hat dich endlich erhört, Lindstrøm!",
@@ -1880,7 +1880,7 @@ export const imageTexts = {
       "backgroundColor": "hundstag_light",
       "fontSize": "1.8vw",
       "textAlign": "right",
-      "bottom": "27%",
+      "bottom": "59%",
       "left": "24%",
       "width": "15%"
     }
@@ -1895,8 +1895,8 @@ export const imageTexts = {
       "backgroundColor": "hundstag_light",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "61%",
-      "left": "24%",
+      "bottom": "62%",
+      "left": "23%",
       "width": "20%"
     },
     {
@@ -2064,7 +2064,7 @@ export const imageTexts = {
       "fontSize": "1.8vw",
       "textAlign": "left",
       "bottom": "92%",
-      "left": "68%",
+      "left": "67%",
       "width": "20%"
     },
     {
@@ -2089,7 +2089,7 @@ export const imageTexts = {
       "backgroundColor": "hundstag_light",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "20%",
+      "bottom": "18%",
       "left": "76%",
       "width": "20%"
     }
@@ -2119,7 +2119,7 @@ export const imageTexts = {
       "backgroundColor": "hundstag_light",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "86%",
+      "bottom": "88%",
       "left": "22%",
       "width": "20%"
     },
@@ -2180,19 +2180,6 @@ export const imageTexts = {
   ],
   "04d_F_13": [
     {
-      "text_de": "Ich fühl mich wie neugeboren!",
-      "text_en": "I feel like a new man!",
-      "text_no": "no",
-      "kind": "dialog",
-      "color": "black",
-      "backgroundColor": "hundstag_middle",
-      "fontSize": "1.8vw",
-      "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
-      "width": "20%"
-    },
-    {
       "text_de": "Nilsen, die Fram schlingert zu stark. Halt sie ruhiger, sonst geht uns die halbe Himmelsgabe gleich wieder flöten!",
       "text_en": "Nilsen, the Fram’s rolling too much—steady her, or we’ll lose half our heavenly bounty!",
       "text_no": "no",
@@ -2201,9 +2188,9 @@ export const imageTexts = {
       "backgroundColor": "hundstag_middle",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
-      "width": "50%"
+      "bottom": "79%",
+      "left": "59%",
+      "width": "22%"
     },
     {
       "text_de": "Ruhiger krieg ich sie nicht – nicht bei dem Wind!",
@@ -2214,9 +2201,9 @@ export const imageTexts = {
       "backgroundColor": "hundstag_middle",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
-      "left": "2%",
-      "width": "70%"
+      "bottom": "45%",
+      "left": "14%",
+      "width": "17%"
     }
   ],
   "04d_F_14": [
@@ -2229,9 +2216,9 @@ export const imageTexts = {
       "backgroundColor": "hundstag_light",
       "fontSize": "1.8vw",
       "textAlign": "right",
-      "bottom": "15%",
+      "bottom": "19%",
       "left": "13%",
-      "width": "17%"
+      "width": "15%"
     },
     {
       "text_de": "Wir sollten in absehbarer Zeit einen Hafen ansteuern – vielleicht in Südafrika?",
@@ -2270,8 +2257,8 @@ export const imageTexts = {
       "backgroundColor": "hundstag_light",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "-1%",
-      "left": "43%",
+      "bottom": "4%",
+      "left": "40%",
       "width": "20%"
     }
   ],
@@ -2285,8 +2272,8 @@ export const imageTexts = {
       "backgroundColor": "hundstag_light",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "78%",
-      "left": "16%",
+      "bottom": "81%",
+      "left": "17%",
       "width": "13%"
     },
     {
@@ -2298,7 +2285,7 @@ export const imageTexts = {
       "backgroundColor": "hundstag_light",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "68%",
+      "bottom": "75%",
       "left": "49%",
       "width": "17%"
     },
@@ -2311,7 +2298,7 @@ export const imageTexts = {
       "backgroundColor": "hundstag_middle",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "41%",
+      "bottom": "44%",
       "left": "68%",
       "width": "16%"
     }
@@ -2327,8 +2314,8 @@ export const imageTexts = {
       "fontSize": "1.8vw",
       "textAlign": "right",
       "bottom": "82%",
-      "left": "58%",
-      "width": "20%"
+      "left": "61%",
+      "width": "18%"
     },
     {
       "text_de": "Angekettet und ohne Chance, Schutz zu suchen – kein Wunder.",
@@ -2356,7 +2343,7 @@ export const imageTexts = {
       "textAlign": "left",
       "bottom": "68%",
       "left": "22%",
-      "width": "12%"
+      "width": "11%"
     },
     {
       "text_de": "Noch zwei bis drei Tage, Chef.",
@@ -2382,7 +2369,7 @@ export const imageTexts = {
       "textAlign": "left",
       "bottom": "10%",
       "left": "56%",
-      "width": "15%"
+      "width": "14%"
     }
   ],
   "04d_F_19": [
@@ -2408,9 +2395,9 @@ export const imageTexts = {
       "backgroundColor": "hundstag_light",
       "fontSize": "1.8vw",
       "textAlign": "right",
-      "bottom": "3%",
+      "bottom": "13%",
       "left": "65%",
-      "width": "15%"
+      "width": "16%"
     }
   ],
   "04d_F_20": [
@@ -2438,7 +2425,7 @@ export const imageTexts = {
       "textAlign": "left",
       "bottom": "74%",
       "left": "51%",
-      "width": "14%"
+      "width": "11%"
     },
     {
       "text_de": "Dafür ist es zu früh. Ich will eine experimentelle Behandlung versuchen – mit bereits verdauter Nahrung.",
@@ -2451,7 +2438,7 @@ export const imageTexts = {
       "textAlign": "right",
       "bottom": "44%",
       "left": "66%",
-      "width": "15%"
+      "width": "14%"
     }
   ],
   "04d_F_21": [
@@ -2465,8 +2452,8 @@ export const imageTexts = {
       "fontSize": "1.8vw",
       "textAlign": "left",
       "bottom": "18%",
-      "left": "28%",
-      "width": "20%"
+      "left": "26%",
+      "width": "18%"
     },
     {
       "text_de": "Ja, schon – aber ich meine gänzlich verdautes Essen.",
@@ -2505,7 +2492,7 @@ export const imageTexts = {
       "backgroundColor": "hundstag_light",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "74%",
+      "bottom": "76%",
       "left": "82%",
       "width": "20%"
     }
@@ -2535,7 +2522,7 @@ export const imageTexts = {
       "textAlign": "left",
       "bottom": "75%",
       "left": "69%",
-      "width": "20%"
+      "width": "16%"
     }
   ],
   "04d_F_24": [
@@ -2587,13 +2574,13 @@ export const imageTexts = {
       "text_en": "Unbelievable—such naïveté...",
       "text_no": "no",
       "kind": "dialog",
-      "color": "black",
+      "color": "white",
       "backgroundColor": "hundstag_middle",
       "fontSize": "1.8vw",
       "textAlign": "right",
-      "bottom": "58%",
-      "left": "35%",
-      "width": "17%"
+      "bottom": "62%",
+      "left": "36%",
+      "width": "16%"
     }
   ],
   "04d_F_28": [
@@ -2606,7 +2593,7 @@ export const imageTexts = {
       "backgroundColor": "hundstag_middle",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "80%",
+      "bottom": "74%",
       "left": "69%",
       "width": "20%"
     }
@@ -2679,9 +2666,9 @@ export const imageTexts = {
       "backgroundColor": "hundstag_dark",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "46%",
+      "bottom": "51%",
       "left": "64%",
-      "width": "29%"
+      "width": "24%"
     }
   ],
   "04d_F_33": [
@@ -2709,8 +2696,8 @@ export const imageTexts = {
       "backgroundColor": "hundstag_middle",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "74%",
-      "left": "45%",
+      "bottom": "63%",
+      "left": "76%",
       "width": "20%"
     },
     {
@@ -2806,9 +2793,9 @@ export const imageTexts = {
       "backgroundColor": "hundstag_middle",
       "fontSize": "1.8vw",
       "textAlign": "right",
-      "bottom": "62%",
-      "left": "4%",
-      "width": "29%"
+      "bottom": "72%",
+      "left": "10%",
+      "width": "25%"
     }
   ],
   "04d_F_38": [
@@ -2822,7 +2809,7 @@ export const imageTexts = {
       "fontSize": "1.8vw",
       "textAlign": "left",
       "bottom": "52%",
-      "left": "71%",
+      "left": "66%",
       "width": "20%"
     },
     {
@@ -2839,6 +2826,4 @@ export const imageTexts = {
       "width": "20%"
     }
   ]
-
-
 };

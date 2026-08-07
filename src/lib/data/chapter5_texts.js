@@ -718,7 +718,7 @@ export const imageTexts ={
       "text_en": "Though the light has long since faded, thoughts burn on until dawn. Who knows what Amundsen intends? What, if anything, must be changed? Is there a shadow hanging over this expedition?",
       "text_no": "NO",
       "kind": "speaker_comic",
-      "color": "",
+      "color": "black",
       "backgroundColor": "",
       "fontSize": "1.4vw",
       "textAlign": "left",
@@ -786,7 +786,7 @@ export const imageTexts ={
       "text_no": "NO",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "post_dream_light",
+      "backgroundColor": "bg_white",
       "fontSize": "1.8vw",
       "textAlign": "right",
       "bottom": "27.5%",
@@ -799,7 +799,7 @@ export const imageTexts ={
       "text_no": "NO",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "post_dream_light",
+      "backgroundColor": "post_dream_lifgt",
       "fontSize": "1.8vw",
       "textAlign": "right",
       "bottom": "73.5%",
@@ -889,7 +889,7 @@ export const imageTexts ={
       "fontSize": "1.8vw",
       "textAlign": "right",
       "bottom": "83.5%",
-      "left": "34%",
+      "left": "31%",
       "width": "17%"
     }
   ],
@@ -916,7 +916,7 @@ export const imageTexts ={
       "backgroundColor": "",
       "fontSize": "",
       "textAlign": "left",
-      "bottom": "78%",
+      "bottom": "80%",
       "left": "0%",
       "width": "100%"
     }

@@ -78,8 +78,8 @@ export const imageTexts = {
       "backgroundColor": "madeira_light",
       "fontSize": "1.8vw",
       "textAlign": "right",
-      "bottom": "83%",
-      "left": "4%",
+      "bottom": "80%",
+      "left": "6%",
       "width": "16%"
     },
     {
@@ -104,7 +104,7 @@ export const imageTexts = {
       "backgroundColor": "bg_white",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "57%",
+      "bottom": "58%",
       "left": "83%",
       "width": "16%"
     },
@@ -117,7 +117,7 @@ export const imageTexts = {
       "backgroundColor": "madeira_light",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "39%",
+      "bottom": "38%",
       "left": "49%",
       "width": "20%"
     }
@@ -147,7 +147,7 @@ export const imageTexts = {
       "backgroundColor": "madeira_middle",
       "fontSize": "1.8vw",
       "textAlign": "right",
-      "bottom": "42%",
+      "bottom": "41%",
       "left": "52%",
       "width": "11%"
     },
@@ -203,7 +203,7 @@ export const imageTexts = {
       "backgroundColor": "bg_white",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "75%",
+      "bottom": "72%",
       "left": "22%",
       "width": "19%"
     }
@@ -261,9 +261,9 @@ export const imageTexts = {
       "backgroundColor": "bg_white",
       "fontSize": "1.8vw",
       "textAlign": "right",
-      "bottom": "63%",
-      "left": "50%",
-      "width": "19%"
+      "bottom": "65%",
+      "left": "47%",
+      "width": "23%"
     }
   ],
   "03_F_11": [
@@ -291,7 +291,7 @@ export const imageTexts = {
       "backgroundColor": "madeira_light",
       "fontSize": "1.8vw",
       "textAlign": "right",
-      "bottom": "31%",
+      "bottom": "17%",
       "left": "3%",
       "width": "22%"
     },
@@ -319,7 +319,7 @@ export const imageTexts = {
       "backgroundColor": "madeira_light",
       "fontSize": "1.8vw",
       "textAlign": "right",
-      "bottom": "5%",
+      "bottom": "14%",
       "left": "28%",
       "width": "23%"
     }
@@ -504,8 +504,8 @@ export const imageTexts = {
       "backgroundColor": "bg_white",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "76%",
-      "left": "49%",
+      "bottom": "75%",
+      "left": "48%",
       "width": "16%"
     },
     {
@@ -631,7 +631,7 @@ export const imageTexts = {
       "backgroundColor": "bg_white",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "67%",
+      "bottom": "65%",
       "left": "77%",
       "width": "14%"
     }
@@ -700,7 +700,7 @@ export const imageTexts = {
       "backgroundColor": "bg_white",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "43%",
+      "bottom": "40%",
       "left": "86%",
       "width": "20%"
     }
@@ -716,7 +716,7 @@ export const imageTexts = {
       "fontSize": "1.8vw",
       "textAlign": "left",
       "bottom": "40%",
-      "left": "26%",
+      "left": "25%",
       "width": "9%"
     },
     {
@@ -784,7 +784,7 @@ export const imageTexts = {
       "backgroundColor": "bg_white",
       "fontSize": "1.8vw",
       "textAlign": "right",
-      "bottom": "85%",
+      "bottom": "87%",
       "left": "36%",
       "width": "16%"
     },
@@ -826,8 +826,8 @@ export const imageTexts = {
       "fontSize": "1.8vw",
       "textAlign": "right",
       "bottom": "65%",
-      "left": "54%",
-      "width": "20%"
+      "left": "59%",
+      "width": "17%"
     }
   ],
   "03_F_35": [
@@ -909,8 +909,8 @@ export const imageTexts = {
       "backgroundColor": "bg_white",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "50%",
-      "left": "59%",
+      "bottom": "54%",
+      "left": "63%",
       "width": "20%"
     }
   ],
@@ -924,8 +924,8 @@ export const imageTexts = {
       "backgroundColor": "madeira_light",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "90%",
-      "left": "81%",
+      "bottom": "86%",
+      "left": "82%",
       "width": "17%"
     },
     {
@@ -965,7 +965,7 @@ export const imageTexts = {
       "backgroundColor": "bg_white",
       "fontSize": "3vw",
       "textAlign": "left",
-      "bottom": "87%",
+      "bottom": "34%",
       "left": "40%",
       "width": "20%"
     },
@@ -1049,7 +1049,7 @@ export const imageTexts = {
       "backgroundColor": "bg_white",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "80%",
+      "bottom": "82%",
       "left": "72%",
       "width": "20%"
     }
@@ -1146,7 +1146,7 @@ export const imageTexts = {
       "backgroundColor": "madeira_light",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "72%",
+      "bottom": "68%",
       "left": "41%",
       "width": "20%"
     },
@@ -1160,7 +1160,7 @@ export const imageTexts = {
       "fontSize": "1.8vw",
       "textAlign": "left",
       "bottom": "0%",
-      "left": "20%",
+      "left": "24%",
       "width": "20%"
     }
   ],
@@ -1213,7 +1213,7 @@ export const imageTexts = {
       "backgroundColor": "madeira_light",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "10%",
+      "bottom": "9.3%",
       "left": "43%",
       "width": "20%"
     },
@@ -1267,8 +1267,8 @@ export const imageTexts = {
       "backgroundColor": "madeira_middle",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "38%",
-      "left": "53%",
+      "bottom": "42%",
+      "left": "48%",
       "width": "16%"
     },
     {
@@ -1290,11 +1290,11 @@ export const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "madeira_light",
       "fontSize": "1.8vw",
       "textAlign": "left",
       "bottom": "-1%",
-      "left": "34%",
+      "left": "32%",
       "width": "20%"
     }
   ],
@@ -1310,7 +1310,7 @@ export const imageTexts = {
       "textAlign": "right",
       "bottom": "1%",
       "left": "1%",
-      "width": "16%"
+      "width": "20%"
     },
     {
       "text_de": "Nicht der Konsul, nein … ein alter Vertrauter.",
@@ -1435,7 +1435,7 @@ export const imageTexts = {
       "backgroundColor": "bg_white",
       "fontSize": "1.8vw",
       "textAlign": "right",
-      "bottom": "83%",
+      "bottom": "81%",
       "left": "2%",
       "width": "20%"
     },
@@ -1493,8 +1493,8 @@ export const imageTexts = {
       "backgroundColor": "bg_white",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "77%",
-      "left": "33%",
+      "bottom": "73%",
+      "left": "31%",
       "width": "20%"
     },
     {
@@ -1503,12 +1503,12 @@ export const imageTexts = {
       "text_no": "no",
       "kind": "footnote",
       "color": "black",
-      "backgroundColor": "bg_white",
-      "fontSize": "1.8vw",
+      "backgroundColor": "madeira_light",
+      "fontSize": "1.4vw",
       "textAlign": "left",
-      "bottom": "90%",
-      "left": "0%",
-      "width": "20%"
+      "bottom": "-1%",
+      "left": "63%",
+      "width": "24%"
     }
   ],
   "03_F_60": [
@@ -1678,9 +1678,9 @@ export const imageTexts = {
       "backgroundColor": "madeira_light",
       "fontSize": "1.8vw",
       "textAlign": "right",
-      "bottom": "81%",
-      "left": "78%",
-      "width": "20%"
+      "bottom": "82%",
+      "left": "80%",
+      "width": "18%"
     }
   ],
   "03_F_68": [
@@ -1707,7 +1707,7 @@ export const imageTexts = {
       "fontSize": "1.8vw",
       "textAlign": "left",
       "bottom": "70%",
-      "left": "81%",
+      "left": "79%",
       "width": "15%"
     }
   ],
@@ -1807,7 +1807,7 @@ export const imageTexts = {
       "backgroundColor": "bg_white",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "46%",
+      "bottom": "49%",
       "left": "28%",
       "width": "20%"
     },
@@ -1816,11 +1816,11 @@ export const imageTexts = {
       "text_en": "You do exaggerate.",
       "text_no": "no",
       "kind": "dialog",
-      "color": "white",
+      "color": "black",
       "backgroundColor": "madeira_dark",
       "fontSize": "1.8vw",
       "textAlign": "right",
-      "bottom": "56%",
+      "bottom": "60%",
       "left": "50%",
       "width": "20%"
     }
@@ -1836,7 +1836,7 @@ export const imageTexts = {
       "fontSize": "1.8vw",
       "textAlign": "right",
       "bottom": "74%",
-      "left": "31%",
+      "left": "29%",
       "width": "28%"
     }
   ],
@@ -1859,11 +1859,11 @@ export const imageTexts = {
       "text_en": "Two more days, surely they can hold their tongues.",
       "text_no": "no",
       "kind": "dialog",
-      "color": "white",
+      "color": "black",
       "backgroundColor": "madeira_dark",
       "fontSize": "1.8vw",
       "textAlign": "right",
-      "bottom": "52%",
+      "bottom": "55%",
       "left": "51%",
       "width": "16%"
     }
@@ -1878,8 +1878,8 @@ export const imageTexts = {
       "backgroundColor": "madeira_light",
       "fontSize": "1.8vw",
       "textAlign": "right",
-      "bottom": "85%",
-      "left": "32%",
+      "bottom": "83%",
+      "left": "34%",
       "width": "15%"
     }
   ],
@@ -1906,7 +1906,7 @@ export const imageTexts = {
       "backgroundColor": "",
       "fontSize": "",
       "textAlign": "left",
-      "bottom": "80%",
+      "bottom": "78.5%",
       "left": "0%",
       "width": "100%"
     },
@@ -1964,8 +1964,8 @@ export const imageTexts = {
       "backgroundColor": "bg_white",
       "fontSize": "1.8vw",
       "textAlign": "right",
-      "bottom": "68%",
-      "left": "44%",
+      "bottom": "70%",
+      "left": "46%",
       "width": "20%"
     }
   ],
@@ -2040,7 +2040,7 @@ export const imageTexts = {
       "fontSize": "1.8vw",
       "textAlign": "left",
       "bottom": "80%",
-      "left": "62%",
+      "left": "66%",
       "width": "20%"
     }
   ],
@@ -2123,12 +2123,12 @@ export const imageTexts = {
       "text_en": "Tock, tock, tock!",
       "text_no": "no",
       "kind": "dialog",
-      "color": "white",
-      "backgroundColor": "madeira_dark",
+      "color": "black",
+      "backgroundColor": "madeira_light",
       "fontSize": "1.8vw",
       "textAlign": "left",
       "bottom": "87%",
-      "left": "54%",
+      "left": "42%",
       "width": "20%"
     }
   ],
@@ -2158,7 +2158,7 @@ export const imageTexts = {
       "fontSize": "1.8vw",
       "textAlign": "left",
       "bottom": "60%",
-      "left": "21%",
+      "left": "22%",
       "width": "12%"
     },
     {
@@ -2252,7 +2252,7 @@ export const imageTexts = {
       "backgroundColor": "madeira_light",
       "fontSize": "1.8vw",
       "textAlign": "right",
-      "bottom": "77%",
+      "bottom": "74%",
       "left": "65%",
       "width": "12%"
     }
@@ -2360,7 +2360,7 @@ export const imageTexts = {
       "backgroundColor": "madeira_middle",
       "fontSize": "1.8vw",
       "textAlign": "right",
-      "bottom": "50.5%",
+      "bottom": "50%",
       "left": "45%",
       "width": "20%"
     },
@@ -2386,7 +2386,7 @@ export const imageTexts = {
       "backgroundColor": "madeira_middle",
       "fontSize": "2vw",
       "textAlign": "right",
-      "bottom": "48%",
+      "bottom": "47%",
       "left": "43%",
       "width": "20%"
     },
@@ -2496,7 +2496,7 @@ export const imageTexts = {
       "backgroundColor": "bg_white",
       "fontSize": "1.8vw",
       "textAlign": "right",
-      "bottom": "20%",
+      "bottom": "26%",
       "left": "4%",
       "width": "16%"
     }

@@ -90,7 +90,7 @@ export const imageTexts = {
       "fontSize": "1.8vw",
       "textAlign": "right",
       "bottom": "58%",
-      "left": "20%",
+      "left": "22%",
       "width": "19%"
     }
   ],
@@ -105,7 +105,7 @@ export const imageTexts = {
       "fontSize": "1.8vw",
       "textAlign": "right",
       "bottom": "80%",
-      "left": "7%",
+      "left": "5%",
       "width": "20%"
     },
     {
@@ -117,8 +117,8 @@ export const imageTexts = {
       "backgroundColor": "FSturm_dark",
       "fontSize": "1.8vw",
       "textAlign": "right",
-      "bottom": "76%",
-      "left": "40%",
+      "bottom": "78%",
+      "left": "42%",
       "width": "20%"
     }
   ],
@@ -132,7 +132,7 @@ export const imageTexts = {
       "backgroundColor": "FSturm_dark",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "",
+      "bottom": "90%",
       "left": "8%",
       "width": "20%"
     }
@@ -148,8 +148,8 @@ export const imageTexts = {
       "fontSize": "1.8vw",
       "textAlign": "right",
       "bottom": "76%",
-      "left": "49%",
-      "width": "18%"
+      "left": "51%",
+      "width": "17%"
     }
   ],
   "06_F_06": [
@@ -235,8 +235,8 @@ export const imageTexts = {
       "backgroundColor": "FSturm_middle",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "83%",
-      "left": "54%",
+      "bottom": "74%",
+      "left": "52%",
       "width": "13%"
     }
   ],
@@ -252,7 +252,7 @@ export const imageTexts = {
       "textAlign": "left",
       "bottom": "90%",
       "left": "81%",
-      "width": "20%"
+      "width": "16%"
     },
     {
       "text_de": "Ja, die Hunde sind friedlicher – aber …",
@@ -525,7 +525,7 @@ export const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "FSturm_FB_light",
       "fontSize": "1.8vw",
       "textAlign": "left",
       "bottom": "52%",
@@ -538,12 +538,12 @@ export const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "FSturm_FB_light",
       "fontSize": "1.8vw",
       "textAlign": "left",
       "bottom": "3%",
       "left": "83%",
-      "width": "20%"
+      "width": "19%"
     },
     {
       "text_de": "Ein beeindruckender Vortrag!",
@@ -551,7 +551,7 @@ export const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "bg_white",
+      "backgroundColor": "FSturm_FB_light",
       "fontSize": "1.8vw",
       "textAlign": "left",
       "bottom": "9%",
@@ -586,7 +586,7 @@ export const imageTexts = {
       "textAlign": "left",
       "bottom": "8%",
       "left": "32%",
-      "width": "20%"
+      "width": "19%"
     },
     {
       "text_de": "Das Ansehen einer solchen Expedition wäre gewiss auch für unsere junge Nation von großem Wert.",
@@ -613,7 +613,7 @@ export const imageTexts = {
       "fontSize": "1.8vw",
       "textAlign": "left",
       "bottom": "11%",
-      "left": "72%",
+      "left": "70%",
       "width": "20%"
     }
   ],
@@ -680,7 +680,7 @@ export const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "storm_FB_light",
+      "backgroundColor": "FSturm_FB_light",
       "fontSize": "1.8vw",
       "textAlign": "right",
       "bottom": "26%",
@@ -710,7 +710,7 @@ export const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "white",
-      "backgroundColor": "storm_FB_dark",
+      "backgroundColor": "FSturm_FB_dark",
       "fontSize": "1.8vw",
       "textAlign": "left",
       "bottom": "86%",
@@ -764,10 +764,10 @@ export const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "storm_FB_light",
+      "backgroundColor": "FSturm_FB_light",
       "fontSize": "1.8vw",
       "textAlign": "right",
-      "bottom": "77%",
+      "bottom": "73%",
       "left": "15%",
       "width": "15%"
     },
@@ -780,9 +780,9 @@ export const imageTexts = {
       "backgroundColor": "bg_white",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "76%",
+      "bottom": "73%",
       "left": "63%",
-      "width": "20%"
+      "width": "16%"
     }
   ],
   "06_F_31": [
@@ -792,11 +792,11 @@ export const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "storm_FB_light",
+      "backgroundColor": "FSturm_FB_light",
       "fontSize": "1.8vw",
       "textAlign": "left",
       "bottom": "86%",
-      "left": "30%",
+      "left": "31%",
       "width": "18%"
     },
     {
@@ -808,8 +808,8 @@ export const imageTexts = {
       "backgroundColor": "bg_white",
       "fontSize": "1.8vw",
       "textAlign": "right",
-      "bottom": "67%",
-      "left": "79%",
+      "bottom": "64%",
+      "left": "71%",
       "width": "19%"
     }
   ],
@@ -838,7 +838,7 @@ export const imageTexts = {
       "textAlign": "right",
       "bottom": "76%",
       "left": "58%",
-      "width": "16%"
+      "width": "17%"
     }
   ],
   "06_F_33": [
@@ -852,7 +852,7 @@ export const imageTexts = {
       "fontSize": "1.8vw",
       "textAlign": "left",
       "bottom": "76%",
-      "left": "36%",
+      "left": "27%",
       "width": "20%"
     }
   ],
@@ -866,8 +866,8 @@ export const imageTexts = {
       "backgroundColor": "bg_white",
       "fontSize": "1.8vw",
       "textAlign": "right",
-      "bottom": "60%",
-      "left": "32%",
+      "bottom": "63%",
+      "left": "35%",
       "width": "20%"
     }
   ],
@@ -881,9 +881,9 @@ export const imageTexts = {
       "backgroundColor": "bg_white",
       "fontSize": "1.8vw",
       "textAlign": "right",
-      "bottom": "67%",
-      "left": "16%",
-      "width": "15%"
+      "bottom": "65%",
+      "left": "14%",
+      "width": "14%"
     },
     {
       "text_de": "Ich werde hier gebraucht. Und meine Südpol-Pläne – die können warten.",
@@ -910,7 +910,7 @@ export const imageTexts = {
       "fontSize": "1.8vw",
       "textAlign": "left",
       "bottom": "38%",
-      "left": "28%",
+      "left": "32%",
       "width": "20%"
     }
   ],
@@ -980,7 +980,7 @@ export const imageTexts = {
       "backgroundColor": "FSturm_middle",
       "fontSize": "1.8vw",
       "textAlign": "right",
-      "bottom": "88%",
+      "bottom": "46%",
       "left": "2%",
       "width": "14%"
     }
@@ -995,8 +995,8 @@ export const imageTexts = {
       "backgroundColor": "FSturm_light",
       "fontSize": "1.8vw",
       "textAlign": "right",
-      "bottom": "61.3%",
-      "left": "24%",
+      "bottom": "50%",
+      "left": "23%",
       "width": "20%"
     }
   ],
@@ -1010,9 +1010,9 @@ export const imageTexts = {
       "backgroundColor": "FSturm_dark",
       "fontSize": "1.8vw",
       "textAlign": "right",
-      "bottom": "79%",
-      "left": "18%",
-      "width": "14%"
+      "bottom": "78%",
+      "left": "16%",
+      "width": "13%"
     },
     {
       "text_de": "Zu Befehl, Kapitän!",
@@ -1038,8 +1038,8 @@ export const imageTexts = {
       "backgroundColor": "bg_black",
       "fontSize": "2vw",
       "textAlign": "left",
-      "bottom": "76%",
-      "left": "72%",
+      "bottom": "73%",
+      "left": "71%",
       "width": "20%"
     }
   ],
@@ -1053,9 +1053,9 @@ export const imageTexts = {
       "backgroundColor": "bg_black",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
+      "bottom": "86%",
       "left": "67%",
-      "width": "20%"
+      "width": "23%"
     }
   ],
   "06_F_44": [
@@ -1083,7 +1083,7 @@ export const imageTexts = {
       "backgroundColor": "bg_black",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "92%",
+      "bottom": "93%",
       "left": "25%",
       "width": "20%"
     },
@@ -1096,8 +1096,8 @@ export const imageTexts = {
       "backgroundColor": "bg_black",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "75%",
-      "left": "75%",
+      "bottom": "79%",
+      "left": "72%",
       "width": "17%"
     },
     {
@@ -1109,8 +1109,8 @@ export const imageTexts = {
       "backgroundColor": "bg_black",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "52%",
-      "left": "14%",
+      "bottom": "55%",
+      "left": "17%",
       "width": "20%"
     },
     {
@@ -1122,7 +1122,7 @@ export const imageTexts = {
       "backgroundColor": "bg_black",
       "fontSize": "1.8vw",
       "textAlign": "right",
-      "bottom": "38%",
+      "bottom": "43%",
       "left": "82%",
       "width": "15%"
     }
@@ -1152,8 +1152,8 @@ export const imageTexts = {
       "backgroundColor": "FSturm_middle",
       "fontSize": "2vw",
       "textAlign": "left",
-      "bottom": "46%",
-      "left": "60%",
+      "bottom": "42%",
+      "left": "62%",
       "width": "20%"
     }
   ],
