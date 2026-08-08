@@ -1127,21 +1127,6 @@ export const imageTexts = {
       "width": "15%"
     }
   ],
-  "06_F_46": [
-    {
-      "text_de": "Festhalten!",
-      "text_en": "Hold on tight!",
-      "text_no": "no",
-      "kind": "dialog",
-      "color": "white",
-      "backgroundColor": "bg_black",
-      "fontSize": "2.8vw",
-      "textAlign": "left",
-      "bottom": "40%",
-      "left": "17%",
-      "width": "20%"
-    }
-  ],
   "06_F_47": [
     {
       "text_de": "Herrje!",

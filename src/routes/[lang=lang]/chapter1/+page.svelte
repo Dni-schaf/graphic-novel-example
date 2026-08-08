@@ -6,7 +6,6 @@
   import { imageSetA, imageSetB } from '$lib/data/chapter1_images.js';
   import { imageTexts } from '$lib/data/chapter1_texts.js';
   import { speaker } from '$lib/data/chapter1_speaker.js';
-  import { curvedTexts } from '$lib/data/chapter1_curvedTexts.js';
   import { parallaxLayers } from '$lib/data/chapter1_parallax.js';
 
 
@@ -38,10 +37,10 @@ let comicHeights = $derived(
 <PureMap scale={150} rotate={[-70, 0]} chapterName="chapter1" {totalMapHeight}
   {comicHeights} {sections}/>
 
-<ComicSection id="srt" chapterName="chapter1" imageNames={imageSetA} {imageTexts} {curvedTexts} {parallaxLayers} onHeightChange={(h) => updateHeight(0, h)}/>
+<ComicSection id="srt" chapterName="chapter1" imageNames={imageSetA} {imageTexts} {parallaxLayers} onHeightChange={(h) => updateHeight(0, h)}/>
 <MapSection dateStart="02.06.1910" dateEnd="14.06.1910" sectionId="1a" speakerTexts={speaker} onHeightChange={(h) => updateHeight(1, h)} />
 
-<ComicSection chapterName="chapter1" imageNames={imageSetB} {imageTexts} {curvedTexts} {parallaxLayers} onHeightChange={(h) => updateHeight(2, h)}/>
+<ComicSection chapterName="chapter1" imageNames={imageSetB} {imageTexts} {parallaxLayers} onHeightChange={(h) => updateHeight(2, h)}/>
 <MapSection dateStart="15.06.1910" dateEnd="09.08.1910" sectionId="1b" speakerTexts={speaker} onHeightChange={(h) => updateHeight(3, h)}/>
 <ChapterEndSpacer />
 
