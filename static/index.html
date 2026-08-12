@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script>
+    const supported = ['de', 'en', 'no'];
+    let lang = 'de'; // Standard-Fallback
+
+    if (navigator.language) {
+      const preferred = navigator.languages || [navigator.language];
+      const found = preferred
+        .map(l => l.split('-')[0].toLowerCase())
+        .find(l => supported.includes(l));
+      if (found) lang = found;
+    }
+
+    window.location.replace('/' + lang + '/');
+  </script>
+</head>
+<body></body>
+</html>

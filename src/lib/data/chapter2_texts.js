@@ -15,17 +15,19 @@ export const imageTexts ={
     },
     {
       "text_de": "Federkleid und Kohlenstaub",
-      "text_en": "Fine Feathers and Coarse Coal",
+      "text_en": "Fine Feathers and  Coarse Coal",
       "text_no": "no",
       "kind": "title",
       "color": "black",
       "backgroundColor": "",
       "fontSize": "",
       "textAlign": "center",
-      "bottom": "85%",
+      "bottom": "70%",
       "left": "10%",
       "width": "80%"
-    },
+    }
+  ],
+    "02_TN_01b": [
     {
       "text_de": "8. August 1910",
       "text_en": "8 August 1910",
@@ -35,7 +37,7 @@ export const imageTexts ={
       "backgroundColor": "",
       "fontSize": "",
       "textAlign": "left",
-      "bottom": "67.7%",
+      "bottom": "80%",
       "left": "0%",
       "width": "100%"
     },
@@ -48,7 +50,7 @@ export const imageTexts ={
       "backgroundColor": "",
       "fontSize": "",
       "textAlign": "left",
-      "bottom": "67%",
+      "bottom": "78.7%",
       "left": "0%",
       "width": "100%"
     }

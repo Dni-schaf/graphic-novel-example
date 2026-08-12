@@ -8,6 +8,7 @@
   import { imageTexts } from '$lib/data/chapter6_texts.js';
   import { speaker } from '$lib/data/chapter6_speaker.js';
   import { curvedTexts } from '$lib/data/chapter6_curvedTexts.js';
+  import { parallaxLayers } from '$lib/data/chapter6_parallax.js';
 
 
     // Eine geordnete Liste aller Sections mit Typ und Höhe
@@ -36,7 +37,7 @@ let comicHeights = $derived(
   {comicHeights} {sections}/>
 
 <ChapterStartSpacer />
-<ComicSection id="srt" chapterName="chapter6" imageNames={imageSets} {imageTexts} {curvedTexts} onHeightChange={(h) => updateHeight(0, h)}/>
+<ComicSection id="srt" chapterName="chapter6" imageNames={imageSets} {imageTexts} {parallaxLayers} {curvedTexts} onHeightChange={(h) => updateHeight(0, h)}/>
 <MapSection dateStart="02.11.1910" dateEnd="25.11.1910" sectionId="6a" speakerTexts={speaker} onHeightChange={(h) => updateHeight(1, h)}/>
 <ChapterEndSpacer />
 

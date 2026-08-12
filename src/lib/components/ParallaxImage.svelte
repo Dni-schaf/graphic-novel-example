@@ -22,10 +22,11 @@
 
 <img
   src={imagePath}
+  id={layer.image}
   alt=""
   loading="lazy"
   class="parallax-layer"
-  style="top: {layer.top}; left: {layer.left}; width: {layer.width}; transform: translateY({offset}px);"
+  style="top: {layer.top}; left: {layer.left}; width: {layer.width}; transform: translateY({offset}px); z-index:{layer.zIndex};"
   bind:this={elementRef}
 />
 

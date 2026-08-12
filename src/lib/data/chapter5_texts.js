@@ -151,7 +151,7 @@ export const imageTexts ={
       "backgroundColor": "post_light",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "83%",
+      "bottom": "86%",
       "left": "3%",
       "width": "25%"
     },
@@ -164,7 +164,7 @@ export const imageTexts ={
       "backgroundColor": "post_light",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "85%",
+      "bottom": "87%",
       "left": "37%",
       "width": "28%"
     },
@@ -207,7 +207,7 @@ export const imageTexts ={
       "backgroundColor": "post_dark",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "83.7%",
+      "bottom": "72.7%",
       "left": "83%",
       "width": "20%"
     },
@@ -220,7 +220,7 @@ export const imageTexts ={
       "backgroundColor": "post_dark",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "79.7%",
+      "bottom": "60.7%",
       "left": "18%",
       "width": "20%"
     },
@@ -233,10 +233,12 @@ export const imageTexts ={
       "backgroundColor": "post_dark",
       "fontSize": "1.8vw",
       "textAlign": "right",
-      "bottom": "72.8%",
+      "bottom": "41.8%",
       "left": "17%",
       "width": "20%"
     },
+     ],
+  "05_TN_11b": [
     {
       "text_de": "An Backbord, bitte! Nur noch ein Versuch!",
       "text_en": "Try portside, please! Just once more!",
@@ -246,10 +248,12 @@ export const imageTexts ={
       "backgroundColor": "post_dark",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "47.2%",
+      "bottom": "57.2%",
       "left": "68%",
       "width": "16%"
-    },
+    }
+     ],
+  "05_TN_11c": [
     {
       "text_de": "Achtung!",
       "text_en": "Steady now!",
@@ -259,7 +263,7 @@ export const imageTexts ={
       "backgroundColor": "post_dark",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "20.5%",
+      "bottom": "75.5%",
       "left": "45%",
       "width": "20%"
     }
@@ -402,7 +406,7 @@ export const imageTexts ={
       "fontSize": "1.8vw",
       "textAlign": "right",
       "bottom": "59%",
-      "left": "32%",
+      "left": "29%",
       "width": "9%"
     },
     {
@@ -411,11 +415,11 @@ export const imageTexts ={
       "text_no": "NO",
       "kind": "dialog",
       "color": "white",
-      "backgroundColor": "post_dark",
-      "fontSize": "1.8vw",
-      "textAlign": "right",
-      "bottom": "78%",
-      "left": "84%",
+      "backgroundColor": "bg_black",
+      "fontSize": "2.5vw",
+      "textAlign": "left",
+      "bottom": "4%",
+      "left": "85%",
       "width": "14%"
     }
   ],
@@ -485,9 +489,9 @@ export const imageTexts ={
       "backgroundColor": "post_light",
       "fontSize": "1.8vw",
       "textAlign": "right",
-      "bottom": "14%",
-      "left": "51%",
-      "width": "14%"
+      "bottom": "19%",
+      "left": "49%",
+      "width": "15%"
     }
   ],
   "05_TN_26": [
@@ -509,8 +513,8 @@ export const imageTexts ={
       "text_en": "Not once did he respond to any of my requests—though they concerned important scientific work!",
       "text_no": "NO",
       "kind": "dialog",
-      "color": "white",
-      "backgroundColor": "post_middle",
+      "color": "black",
+      "backgroundColor": "post_light",
       "fontSize": "1.8vw",
       "textAlign": "left",
       "bottom": "37%",
@@ -541,7 +545,7 @@ export const imageTexts ={
       "backgroundColor": "post_light",
       "fontSize": "1.8vw",
       "textAlign": "right",
-      "bottom": "17%",
+      "bottom": "21%",
       "left": "41%",
       "width": "20%"
     }
@@ -556,7 +560,7 @@ export const imageTexts ={
       "backgroundColor": "post_light",
       "fontSize": "1.8vw",
       "textAlign": "right",
-      "bottom": "85%",
+      "bottom": "87%",
       "left": "1%",
       "width": "19%"
     },
@@ -673,7 +677,7 @@ export const imageTexts ={
       "width": "15%"
     }
   ],
-  "05_TN_33": [
+    "05_TN_32b": [
     {
       "text_de": "Hast du es gelesen? Was steht drin?",
       "text_en": "Have you read it? What does it say?",
@@ -683,7 +687,7 @@ export const imageTexts ={
       "backgroundColor": "bg_black",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "69.5%",
+      "bottom": "24.5%",
       "left": "58%",
       "width": "14%"
     },
@@ -696,10 +700,12 @@ export const imageTexts ={
       "backgroundColor": "bg_black",
       "fontSize": "1.8vw",
       "textAlign": "right",
-      "bottom": "67%",
+      "bottom": "17%",
       "left": "26%",
       "width": "21%"
     },
+  ],
+  "05_TN_33": [
     {
       "text_de": "Liebster, komm ins Bett! Du brauchst deinen Schlaf.",
       "text_en": "Love, come to bed. You need your rest.",
@@ -709,7 +715,7 @@ export const imageTexts ={
       "backgroundColor": "bg_black",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "28.5%",
+      "bottom": "78.5%",
       "left": "50%",
       "width": "21%"
     },
@@ -722,7 +728,7 @@ export const imageTexts ={
       "backgroundColor": "",
       "fontSize": "1.4vw",
       "textAlign": "left",
-      "bottom": "35%",
+      "bottom": "88%",
       "left": "75%",
       "width": "20%"
     },
@@ -735,7 +741,7 @@ export const imageTexts ={
       "backgroundColor": "bg_white",
       "fontSize": "",
       "textAlign": "left",
-      "bottom": "10.5%",
+      "bottom": "35.5%",
       "left": "0%",
       "width": "20%"
     },
@@ -748,7 +754,7 @@ export const imageTexts ={
       "backgroundColor": "bg_white",
       "fontSize": "",
       "textAlign": "left",
-      "bottom": "10%",
+      "bottom": "34%",
       "left": "0%",
       "width": "20%"
     },
@@ -761,7 +767,7 @@ export const imageTexts ={
       "backgroundColor": "bg_white",
       "fontSize": "1.8vw",
       "textAlign": "right",
-      "bottom": "11.2%",
+      "bottom": "34.2%",
       "left": "78%",
       "width": "21%"
     }
@@ -799,7 +805,7 @@ export const imageTexts ={
       "text_no": "NO",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "post_dream_lifgt",
+      "backgroundColor": "post_dream_light",
       "fontSize": "1.8vw",
       "textAlign": "right",
       "bottom": "73.5%",
@@ -826,8 +832,8 @@ export const imageTexts ={
       "text_en": "If you’re hoping to speak with my brother, I’m afraid you’ve come to Uranienborg for nothing.",
       "text_no": "NO",
       "kind": "dialog",
-      "color": "white",
-      "backgroundColor": "post_dream_dark",
+      "color": "black",
+      "backgroundColor": "post_dream_light",
       "fontSize": "1.8vw",
       "textAlign": "right",
       "bottom": "10.5%",
@@ -889,7 +895,7 @@ export const imageTexts ={
       "fontSize": "1.8vw",
       "textAlign": "right",
       "bottom": "83.5%",
-      "left": "31%",
+      "left": "33%",
       "width": "17%"
     }
   ],
@@ -899,7 +905,7 @@ export const imageTexts ={
       "text_en": "12 October 1910",
       "text_no": "12. Oktober 1910",
       "kind": "date",
-      "color": "white",
+      "color": "black",
       "backgroundColor": "",
       "fontSize": "",
       "textAlign": "left",
@@ -912,11 +918,11 @@ export const imageTexts ={
       "text_en": "Melbourne, Australia",
       "text_no": "Melbourne, Australia",
       "kind": "location",
-      "color": "white",
+      "color": "black",
       "backgroundColor": "",
       "fontSize": "",
       "textAlign": "left",
-      "bottom": "80%",
+      "bottom": "78%",
       "left": "0%",
       "width": "100%"
     }
@@ -942,8 +948,8 @@ export const imageTexts ={
       "text_en": "It… it appears the Norwegians are also bound for the South Pole.",
       "text_no": "NO",
       "kind": "dialog",
-      "color": "white",
-      "backgroundColor": "post_middle",
+      "color": "black",
+      "backgroundColor": "bg_white",
       "fontSize": "1.8vw",
       "textAlign": "left",
       "bottom": "5%",
@@ -1000,7 +1006,7 @@ export const imageTexts ={
       "backgroundColor": "bg_white",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "75%",
+      "bottom": "78%",
       "left": "19%",
       "width": "21%"
     }
@@ -1099,7 +1105,7 @@ export const imageTexts ={
       "backgroundColor": "bg_white",
       "fontSize": "1.8vw",
       "textAlign": "right",
-      "bottom": "60%",
+      "bottom": "62%",
       "left": "0%",
       "width": "19%"
     },
@@ -1126,7 +1132,7 @@ export const imageTexts ={
       "fontSize": "1.8vw",
       "textAlign": "right",
       "bottom": "53%",
-      "left": "47%",
+      "left": "46%",
       "width": "17%"
     }
   ],

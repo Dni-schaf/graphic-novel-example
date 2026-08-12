@@ -1,4 +1,5 @@
 <script>
+  import { switchLanguage } from '$lib/utils/language.js';
   import { languageState } from '$lib/state/language.svelte.js';
   import { uiTexts } from '$lib/data/uiTexts.js';
   import { legalTexts } from '$lib/data/legalTexts.js';
@@ -8,12 +9,12 @@
   import { page } from '$app/state';
   import { goto } from '$app/navigation';
 
-function switchLanguage(newLang) {
-  const pathParts = page.url.pathname.split('/');
-  pathParts[1] = newLang;
-  goto(pathParts.join('/') + page.url.hash);
+  function handleLanguageSwitch(lang) {
+  console.log('vorher:', menuState.isOpen);
+  switchLanguage(lang);
   menuState.isOpen = false;
-}
+  console.log('nachher:', menuState.isOpen);
+  }
 </script>
 
 
@@ -27,9 +28,9 @@ function switchLanguage(newLang) {
         x
       </button>
       <div id="language_buttons_container">
-        <button onclick={() => switchLanguage('de')} class="language_button">DE</button>
-        <button onclick={() => switchLanguage('en')} class="language_button">EN</button>
-        <button onclick={() => switchLanguage('no')} class="language_button">NO</button>
+        <button onclick={() => handleLanguageSwitch('de')} class="language_button">DE</button>
+        <button onclick={() => handleLanguageSwitch('en')} class="language_button">EN</button>
+        <button onclick={() => handleLanguageSwitch('no')} class="language_button">NO</button>
       </div>
     </section>
 
