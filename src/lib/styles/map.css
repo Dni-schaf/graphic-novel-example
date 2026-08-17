@@ -71,7 +71,7 @@
      /*-1px 1px 0 #7492A8,    Schatten links unten */
      /* 1px 1px 0 #7492A8;    Schatten rechts unten */
     font-family: "chapter";
-    font-size: 1.3vw;
+    font-size: 1vw;
 }
 
 .city-circle {
@@ -82,11 +82,9 @@
 
 .ocean {
     font-family: "chapter";
-    font-size: 1.3vw;
-    font-size: 0,8vw;
+    font-size: 0.8vw;
     fill: #9DB4C9; 
     text-align: center;
-    font-size: 1.1vw;
     letter-spacing: 0.1vw;
 }
 
@@ -95,7 +93,7 @@
     font-size: 16px;
     fill: #2E3B4B;
     text-align: center;
-    font-size: 1vw;;
+    font-size: 0.8vw;;
     text-transform: uppercase;
     letter-spacing: 0.1vw;
 }

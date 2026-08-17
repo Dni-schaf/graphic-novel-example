@@ -5,7 +5,7 @@ export const parallaxLayers = {
       top: "70%",
       left: "53%",
       width: "15%",
-      speed: -0.3
+      speed: 0.3
     }
   ],
   "02_TN_01c": [
@@ -14,14 +14,14 @@ export const parallaxLayers = {
       top: "10%",
       left: "53%",
       width: "10%",
-      speed: -0.2
+      speed: 0.2
     },
     {
       image: "02_TN_01c_LC",
       top: "55%",
       left: "30%",
       width: "7%",
-      speed: -0.1
+      speed: 0.1
     }
   ],
   "02_TN_22": [

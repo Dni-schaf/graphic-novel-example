@@ -179,7 +179,7 @@ export const imageTexts ={
       "textAlign": "left",
       "bottom": "86%",
       "left": "78%",
-      "width": "15%"
+      "width": "16%"
     }
   ],
   "05_TN_10": [
@@ -478,7 +478,7 @@ export const imageTexts ={
       "textAlign": "left",
       "bottom": "60%",
       "left": "32%",
-      "width": "12%"
+      "width": "13%"
     },
     {
       "text_de": "Zum Teufel – das haben wir alle gedacht!",
@@ -741,7 +741,7 @@ export const imageTexts ={
       "backgroundColor": "bg_white",
       "fontSize": "",
       "textAlign": "left",
-      "bottom": "35.5%",
+      "bottom": "35%",
       "left": "0%",
       "width": "20%"
     },

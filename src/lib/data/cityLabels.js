@@ -63,6 +63,15 @@ export const cityLabels = [
     visibleInChapters: ["chapter2"]
   },
   {
+    lng: -20.51667,
+    lat: -29.0833,
+    text_de: "Trindade",
+    text_en: "Trindade",
+    text_no: "Trindade",
+    kind: "city",
+    visibleInChapters: ["chapter1", "chapter2"]
+  },
+  {
     lng: 0,
     lat: -90,
     text_de: "Südpol",

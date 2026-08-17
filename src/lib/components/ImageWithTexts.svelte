@@ -17,16 +17,18 @@
 </script>
 
 <div class="image-container">
-  {#if BonusComponent}
-    <BonusComponent {imageName} />
-  {:else}
-    <img
+
+  <img
       src={imagePath}
       alt={imageName}
       loading="lazy"
       style={dimensions ? `aspect-ratio: ${dimensions.width} / ${dimensions.height};` : ''}
     />
 
+  {#if BonusComponent}
+    <BonusComponent {imageName} />
+  {:else}
+    
     {#if parallaxEntries}
       {#each parallaxEntries as layer}
         <ParallaxImage {chapterName} {layer} />

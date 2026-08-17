@@ -2,8 +2,8 @@ export const curvedTexts = {
     "02_TN_03": [
     {
       id: "02_03",
-      text_de: "CHHAARRRRRR!!!",
-      text_en: "CHHAARRRRRR!!!",
+      text_de: "CHHHHHHHHHH!!!",
+      text_en: "CHHHHHHHHHH!!!",
       text_no: "NO",
       pathD: "M1119.9,63.5c100.8,39.3,161.8,150.5,145.7,243",
       viewBox: "0 0 2000 699",

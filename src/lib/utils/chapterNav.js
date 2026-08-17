@@ -6,17 +6,17 @@ export function getCurrentChapterNumber(pathname) {
 }
 
 export function getChapterStartUrl(lang, chapterNumber) {
-  return `/${lang}/chapter${chapterNumber}#srt`;
+  return `/${lang}/chapter${chapterNumber}`;
 }
 
 export function getNextChapterUrl(lang, currentChapterNumber) {
   const next = getNextChapterNumber(currentChapterNumber);
-  return next !== null ? `/${lang}/chapter${next}#srt` : null;
+  return next !== null ? `/${lang}/chapter${next}` : null;
 }
 
 export function getPrevChapterUrl(lang, currentChapterNumber) {
   const prev = getPrevChapterNumber(currentChapterNumber);
-  return prev !== null ? `/${lang}/chapter${prev}#end` : null;
+  return prev !== null ? `/${lang}/chapter${prev}` : null;
 }
 
 export function getNextChapterNumber(current) {

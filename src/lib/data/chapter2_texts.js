@@ -67,7 +67,7 @@ export const imageTexts ={
       "textAlign": "left",
       "bottom": "76%",
       "left": "75%",
-      "width": "22%"
+      "width": "23%"
     }
   ],
   "02_TN_07": [
@@ -93,8 +93,8 @@ export const imageTexts ={
       "backgroundColor": "bg_white",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "81%",
-      "left": "80.8%",
+      "bottom": "74%",
+      "left": "80%",
       "width": "16%"
     }
   ],
@@ -164,7 +164,7 @@ export const imageTexts ={
       "textAlign": "left",
       "bottom": "75%",
       "left": "50%",
-      "width": "29%"
+      "width": "30%"
     }
   ],
   "02_TN_10": [

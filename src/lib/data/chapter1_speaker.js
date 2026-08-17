@@ -50,7 +50,7 @@ export const speaker = {
       "backgroundColor": null,
       "textAlign": "left",
       "top": "30%",
-      "left": "0%",
+      "left": "10%",
       "width": "20%",
       "parallaxSpeed": "-0.3"
     },

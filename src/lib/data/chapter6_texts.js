@@ -132,7 +132,7 @@ export const imageTexts = {
       "backgroundColor": "FSturm_dark",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "90%",
+      "bottom": "87%",
       "left": "8%",
       "width": "20%"
     }
@@ -222,7 +222,7 @@ export const imageTexts = {
       "textAlign": "left",
       "bottom": "70%",
       "left": "53%",
-      "width": "12%"
+      "width": "13%"
     }
   ],
   "06_F_10": [
@@ -252,7 +252,7 @@ export const imageTexts = {
       "textAlign": "left",
       "bottom": "90%",
       "left": "81%",
-      "width": "16%"
+      "width": "17%"
     },
     {
       "text_de": "Ja, die Hunde sind friedlicher – aber …",
@@ -502,9 +502,9 @@ export const imageTexts = {
       "backgroundColor": "bg_white",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "84%",
-      "left": "69%",
-      "width": "20%"
+      "bottom": "88%",
+      "left": "65%",
+      "width": "23%"
     },
     {
       "text_de": "Ich plane, etwas weiter östlich ins Eis vorzustoßen – ich bin sicher, so wird die Drift zum Nordpol gelingen. Auf gewisse Weise würde ich Ihre Expedition vollenden. Und meine Messungen wären von großem wissenschaftlichem Wert.",
@@ -515,9 +515,9 @@ export const imageTexts = {
       "backgroundColor": "bg_white",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "54%",
-      "left": "74%",
-      "width": "24%"
+      "bottom": "57%",
+      "left": "68%",
+      "width": "29%"
     },
     {
       "text_de": "Was man von diesen Ureinwohnern alles lernen kann!",
@@ -528,9 +528,9 @@ export const imageTexts = {
       "backgroundColor": "FSturm_FB_light",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "52%",
+      "bottom": "55%",
       "left": "39%",
-      "width": "15%"
+      "width": "20%"
     },
     {
       "text_de": "Mir war nicht klar, wie faszinierend die Inselwelt Kanadas ist.",
@@ -599,7 +599,7 @@ export const imageTexts = {
       "textAlign": "right",
       "bottom": "0%",
       "left": "51%",
-      "width": "16%"
+      "width": "17%"
     }
   ],
   "06_F_23": [
@@ -656,7 +656,7 @@ export const imageTexts = {
       "fontSize": "1.8vw",
       "textAlign": "left",
       "bottom": "4%",
-      "left": "72%",
+      "left": "73%",
       "width": "20%"
     }
   ],
@@ -924,8 +924,8 @@ export const imageTexts = {
       "backgroundColor": "bg_black",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "33%",
-      "left": "19%",
+      "bottom": "82%",
+      "left": "13%",
       "width": "20%"
     },
     {
@@ -976,13 +976,13 @@ export const imageTexts = {
       "text_en": "All hands on deck! Reef the sails!",
       "text_no": "no",
       "kind": "dialog",
-      "color": "black",
+      "color": "white",
       "backgroundColor": "FSturm_middle",
-      "fontSize": "1.8vw",
+      "fontSize": "2.3vw",
       "textAlign": "right",
       "bottom": "46%",
       "left": "2%",
-      "width": "14%"
+      "width": "16%"
     }
   ],
   "06_F_39b": [
@@ -995,7 +995,7 @@ export const imageTexts = {
       "backgroundColor": "FSturm_light",
       "fontSize": "1.8vw",
       "textAlign": "right",
-      "bottom": "50%",
+      "bottom": "49.5%",
       "left": "23%",
       "width": "20%"
     }
@@ -1012,7 +1012,7 @@ export const imageTexts = {
       "textAlign": "right",
       "bottom": "78%",
       "left": "16%",
-      "width": "13%"
+      "width": "14%"
     },
     {
       "text_de": "Zu Befehl, Kapitän!",
@@ -1055,7 +1055,7 @@ export const imageTexts = {
       "textAlign": "left",
       "bottom": "86%",
       "left": "67%",
-      "width": "23%"
+      "width": "24%"
     }
   ],
   "06_F_44": [

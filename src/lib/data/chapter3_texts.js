@@ -305,7 +305,7 @@ export const imageTexts = {
       "fontSize": "1.8vw",
       "textAlign": "left",
       "bottom": "37%",
-      "left": "82%",
+      "left": "69%",
       "width": "20%"
     }
   ],
@@ -1034,7 +1034,7 @@ export const imageTexts = {
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "bg_white",
-      "fontSize": "1.8vw",
+      "fontSize": "2vw",
       "textAlign": "left",
       "bottom": "89%",
       "left": "29%",
@@ -1233,8 +1233,8 @@ export const imageTexts = {
   ],
   "03_F_47": [
     {
-      "text_de": "Maracujás frescos!",
-      "text_en": "Maracujás frescos!",
+      "text_de": "Tauschen gegen Kleidung?",
+      "text_en": "Trade for clothing?",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -1246,8 +1246,8 @@ export const imageTexts = {
       "width": "14%"
     },
     {
-      "text_de": "Tauschen gegen Kleidung?",
-      "text_en": "Trade for clothing?",
+      "text_de": "Maracujás frescos!",
+      "text_en": "Maracujás frescos!",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -1860,11 +1860,11 @@ export const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "madeira_dark",
+      "backgroundColor": "bg_white",
       "fontSize": "1.8vw",
       "textAlign": "right",
-      "bottom": "55%",
-      "left": "51%",
+      "bottom": "25%",
+      "left": "46%",
       "width": "16%"
     }
   ],
@@ -2098,8 +2098,8 @@ export const imageTexts = {
       "fontSize": "1.8vw",
       "textAlign": "left",
       "bottom": "74%",
-      "left": "74%",
-      "width": "25%"
+      "left": "73%",
+      "width": "26%"
     }
   ],
   "03_F_91": [
@@ -2114,7 +2114,7 @@ export const imageTexts = {
       "textAlign": "left",
       "bottom": "76%",
       "left": "7%",
-      "width": "26%"
+      "width": "20%"
     }
   ],
   "03_F_92": [
@@ -2200,7 +2200,7 @@ export const imageTexts = {
       "textAlign": "left",
       "bottom": "78%",
       "left": "20%",
-      "width": "24%"
+      "width": "25%"
     },
     {
       "text_de": "Das wär ja ein Ding!",
@@ -2352,8 +2352,8 @@ export const imageTexts = {
       "width": "20%"
     },
     {
-      "text_de": "Bin dabei!",
-      "text_en": "Count me in!",
+      "text_de": "Ich auch!",
+      "text_en": "Me too!",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -2365,8 +2365,8 @@ export const imageTexts = {
       "width": "20%"
     },
     {
-      "text_de": "Jawohl!",
-      "text_en": "Me too!",
+      "text_de": "Bin dabei!",
+      "text_en": "Count me in!",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -2378,8 +2378,8 @@ export const imageTexts = {
       "width": "20%"
     },
     {
-      "text_de": "Ich auch!",
-      "text_en": "Me too!",
+      "text_de": "Und ich!",
+      "text_en": "And me!",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -2390,9 +2390,9 @@ export const imageTexts = {
       "left": "43%",
       "width": "20%"
     },
-    {
-      "text_de": "Und ich!",
-      "text_en": "And me!",
+    {      
+      "text_de": "Jawohl!",
+      "text_en": "Me too!",
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
@@ -2465,7 +2465,7 @@ export const imageTexts = {
       "text_no": "no",
       "kind": "dialog",
       "color": "black",
-      "backgroundColor": "madeira_light",
+      "backgroundColor": "bg_white",
       "fontSize": "1.8vw",
       "textAlign": "right",
       "bottom": "81%",
@@ -2608,8 +2608,8 @@ export const imageTexts = {
       "backgroundColor": "madeira_middle",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "0%",
-      "left": "27%",
+      "bottom": "65%",
+      "left": "28%",
       "width": "16%"
     },
     {

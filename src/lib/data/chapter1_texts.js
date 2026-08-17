@@ -35,7 +35,7 @@ export const imageTexts = {
       "backgroundColor": "",
       "fontSize": "",
       "textAlign": "left",
-      "bottom": "3.3%",
+      "bottom": "26.3%",
       "left": "0%",
       "width": "100%"
     },
@@ -48,7 +48,7 @@ export const imageTexts = {
       "backgroundColor": "",
       "fontSize": "",
       "textAlign": "left",
-      "bottom": "1.6%",
+      "bottom": "24.6%",
       "left": "0%",
       "width": "100%"
     }
@@ -76,11 +76,11 @@ export const imageTexts = {
       "kind": "dialog",
       "color": "black",
       "backgroundColor": "start_light",
-      "fontSize": "1.8vw",
+      "fontSize": "2.5vw",
       "textAlign": "right",
-      "bottom": "75%",
-      "left": "43%",
-      "width": "16%"
+      "bottom": "74%",
+      "left": "38%",
+      "width": "22%"
     },
     {
       "text_de": "Määhh!",
@@ -315,7 +315,7 @@ export const imageTexts = {
       "textAlign": "left",
       "bottom": "78%",
       "left": "81%",
-      "width": "15%"
+      "width": "16%"
     }
   ],
   "01a_TN_12": [
@@ -440,9 +440,9 @@ export const imageTexts = {
       "backgroundColor": "bg_white",
       "fontSize": "1.8vw",
       "textAlign": "left",
-      "bottom": "75%",
+      "bottom": "77%",
       "left": "66%",
-      "width": "16%"
+      "width": "22%"
     }
   ],
   "01a_TN_19": [
@@ -1443,7 +1443,7 @@ export const imageTexts = {
       "text_de": "Royal Hotel, Cardiff",
       "text_en": "Royal Hotel, Cardiff",
       "text_no": "no",
-      "kind": "location2",
+      "kind": "location",
       "color": "white",
       "backgroundColor": "",
       "fontSize": "1.8vw",

@@ -9,7 +9,7 @@ export const speaker = {
         "backgroundColor": null,
         "textAlign": "left",
         "top": "30%",
-        "left": "5%",
+        "left": "10%",
         "width": "20%",
         "parallaxSpeed": "-0.3"
       },
@@ -21,7 +21,7 @@ export const speaker = {
         "color": "black",
         "backgroundColor": null,
         "textAlign": "left",
-        "top": "108%",
+        "top": "70%",
         "left": "70%",
         "width": "20%",
         "parallaxSpeed": "-0.3"
@@ -37,7 +37,7 @@ export const speaker = {
         "color": "black",
         "backgroundColor": null,
         "textAlign": "left",
-        "top": "0%",
+        "top": "20%",
         "left": "70%",
         "width": "20%",
         "parallaxSpeed": "-0.3"
@@ -50,7 +50,7 @@ export const speaker = {
         "color": "black",
         "backgroundColor": null,
         "textAlign": "left",
-        "top": "90%",
+        "top": "70%",
         "left": "70%",
         "width": "20%",
         "parallaxSpeed": "-0.3"
@@ -65,7 +65,7 @@ export const speaker = {
         "color": "black",
         "backgroundColor": null,
         "textAlign": "left",
-        "top": "0%",
+        "top": "10%",
         "left": "5%",
         "width": "20%",
         "parallaxSpeed": "-0.3"
@@ -78,7 +78,7 @@ export const speaker = {
         "color": "black",
         "backgroundColor": null,
         "textAlign": "left",
-        "top": "108%",
+        "top": "70%",
         "left": "70%",
         "width": "20%",
         "parallaxSpeed": "-0.3"
@@ -93,7 +93,7 @@ export const speaker = {
         "color": "black",
         "backgroundColor": null,
         "textAlign": "left",
-        "top": "-10%",
+        "top": "10%",
         "left": "5%",
         "width": "20%",
         "parallaxSpeed": "-0.3"
@@ -106,7 +106,7 @@ export const speaker = {
         "color": "black",
         "backgroundColor": null,
         "textAlign": "left",
-        "top": "60%",
+        "top": "50%",
         "left": "70%",
         "width": "20%",
         "parallaxSpeed": "-0.3"
