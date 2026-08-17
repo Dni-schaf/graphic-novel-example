@@ -17,7 +17,7 @@
 
 <header>
   <img id="logo" src="/images/ui/dna-logo-white.svg" alt="DNA Logo" width="25%">
-  <p id="present">präsentiert:</p>
+  <p id="present">{indexTexts.present[languageState.current]}</p>
   <img id="title_index" src={`/images/ui/title_${languageState.current}.svg`} alt="Title" width="100%">
   <!--<h1 id="title">Ein Palast aus Eis </br><span id="subline">am Ende der Welt</span></h1>-->
   <div id="clouds"></div>

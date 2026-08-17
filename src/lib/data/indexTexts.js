@@ -1,4 +1,9 @@
 export const indexTexts = {
+        present: {
+        de: "präsentiert:",
+        en: "present:",
+        no: "no"
+        },
        headline: {
         de: "Wir schreiben das Jahr 1910. Zwei Männer. Zwei Expeditionen. Ein Ziel.",
         en: "en",
